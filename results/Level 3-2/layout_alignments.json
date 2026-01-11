@@ -1,0 +1,40 @@
+{
+  "schema_rev": "r1",
+  "placements": [
+    {
+      "name": "n0",
+      "symbol": "_mmi1x2",
+      "x_um": 0.0,
+      "y_um": -10.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n1_1",
+      "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+      "x_um": 90.0,
+      "y_um": -484.2,
+      "rotation_deg": 0.0,
+      "width_um": 435.6,
+      "height_um": 464.2,
+      "issues": []
+    },
+    {
+      "name": "n1_0",
+      "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+      "x_um": 90.0,
+      "y_um": 20.0,
+      "rotation_deg": 0.0,
+      "width_um": 435.6,
+      "height_um": 464.2,
+      "issues": []
+    }
+  ],
+  "issues": [
+    "alignment_skipped_no_orientation:n0",
+    "alignment_skipped_no_orientation:n1_1",
+    "alignment_skipped_no_orientation:n1_0"
+  ]
+}

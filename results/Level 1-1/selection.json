@@ -1,0 +1,30 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "2x2 MZI (integrated: input coupler + two arms + output coupler)",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer coupler Use two 2x2 couplers (typically 50:50) forming an MZI with two internal arms. Phase control not specified (no heater/modulator unless added later). Expose 2 optical input ports and 2 optical output ports. 2x2 Mach–Zehnder Interferometer (MZI) Implement a 2x2 MZI using two 2x2 couplers connected by two interferometer arms, providing 2 inputs and 2 outputs with interference-dependent transfer between outputs. 2x2 MZI: interference-based 2x2 transfer matrix determined by relative phase between arms (bar/cross behavior tunable if phase shift is provided; otherwise fixed by path length difference).",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.030558659217877,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5805586592178771,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 37,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "1",
+      "selected_index": 1
+    }
+  }
+]

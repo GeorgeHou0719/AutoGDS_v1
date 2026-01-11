@@ -1,0 +1,150 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out0",
+        "part": "gc0",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out1",
+        "part": "gc1",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out2",
+        "part": "gc2",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out3",
+        "part": "gc3",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out4",
+        "part": "gc4",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out5",
+        "part": "gc5",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out6",
+        "part": "gc6",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out7",
+        "part": "gc7",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "gc0"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "gc1"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "gc2"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "gc3"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "gc4"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "gc5"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "gc6"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "gc7"
+      }
+    }
+  ]
+}

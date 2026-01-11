@@ -1,0 +1,111 @@
+{
+  "schema_rev": "r1",
+  "parts": [
+    {
+      "name": "n0_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_4",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_5",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_6",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_7",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    }
+  ],
+  "links": [],
+  "top_ports": {}
+}

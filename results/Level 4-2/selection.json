@@ -1,0 +1,238 @@
+[
+  {
+    "node_id": "n0_0",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "2",
+      "selected_index": 2
+    }
+  },
+  {
+    "node_id": "n0_1",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_2",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_0",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_1",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_2",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2_0",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2_1",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2_2",
+    "role_raw": "2x2 MZI (tunable) node",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mesh/array node; connect adjacent nodes back-to-back if specified. 3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically. Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0047892074198987,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6047892074198988,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 24,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  }
+]

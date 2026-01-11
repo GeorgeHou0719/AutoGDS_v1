@@ -1,0 +1,80 @@
+# AutoGDS Netlist r1
+
+.part n0 _mmi1x2
+.param n0.role splitter_1x2
+
+.part n1 _mmi1x2
+.param n1.role splitter_1x2
+
+.part n2 _mmi1x2
+.param n2.role splitter_1x2
+
+.part n3 _mmi1x2
+.param n3.role splitter_1x2
+
+.part n4 _mmi1x2
+.param n4.role splitter_1x2
+
+.part n5 _mmi1x2
+.param n5.role splitter_1x2
+
+.part n6 _mmi1x2
+.param n6.role splitter_1x2
+
+.part n7 _mmi1x2
+.param n7.role splitter_1x2
+
+.part n8 _mmi1x2
+.param n8.role splitter_1x2
+
+.part n9 _mmi1x2
+.param n9.role splitter_1x2
+
+.part n10 _mmi1x2
+.param n10.role splitter_1x2
+
+.part n11 _mmi1x2
+.param n11.role splitter_1x2
+
+.part n12 _mmi1x2
+.param n12.role splitter_1x2
+
+.part n13 _mmi1x2
+.param n13.role splitter_1x2
+
+.part n14 _mmi1x2
+.param n14.role splitter_1x2
+
+.net n0 n0.o2 n1.o1
+.net n1 n0.o3 n2.o1
+.net n2 n1.o2 n3.o1
+.net n3 n1.o3 n4.o1
+.net n4 n2.o2 n5.o1
+.net n5 n2.o3 n6.o1
+.net n6 n3.o2 n7.o1
+.net n7 n3.o3 n8.o1
+.net n8 n4.o2 n9.o1
+.net n9 n4.o3 n10.o1
+.net n10 n5.o2 n11.o1
+.net n11 n5.o3 n12.o1
+.net n12 n6.o2 n13.o1
+.net n13 n6.o3 n14.o1
+.top in0 n0.in0
+.top out0 n7.out0
+.top out1 n7.out1
+.top out2 n8.out0
+.top out3 n8.out1
+.top out4 n9.out0
+.top out5 n9.out1
+.top out6 n10.out0
+.top out7 n10.out1
+.top out8 n11.out0
+.top out9 n11.out1
+.top out10 n12.out0
+.top out11 n12.out1
+.top out12 n13.out0
+.top out13 n13.out1
+.top out14 n14.out0
+.top out15 n14.out1
+
+.end

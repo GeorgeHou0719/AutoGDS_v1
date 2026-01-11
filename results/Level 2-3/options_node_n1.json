@@ -1,0 +1,210 @@
+[
+  {
+    "symbol": "mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "score": 1.1257337883959044,
+    "rationale": " Mach-Zehnder interferometer (MZI) arm. ports: 1x1 NodeLabels: - passive - 1x1 Bandwidth: 100 nm",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.7257337883959044,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 13,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband:mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "score": 1.012450331125828,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6124503311258278,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "score": 1.0095925297113753,
+    "rationale": "scription: This is a waveguide crossing ports: 1x1 NodeLabels: - passive Bandwidth: 100 nm Args: -length: straight lengt",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6395925297113751,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 7,
+        "spec_bonus": 0.07
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "score": 0.987066381156317,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5870663811563169,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 27,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "edge_coupler:edge_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\edge_coupler.py",
+    "score": 0.9862355658198615,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5862355658198615,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 16,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "pindiode_cband:pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pindiode_cband.py",
+    "score": 0.9781464530892449,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5281464530892449,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_bezier_curve:_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "score": 0.9626053639846743,
+    "rationale": "e. https://stackoverflow.com/questions/30277646/svg-convert-arcs-to-cubic-bezier",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6026053639846743,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 6,
+        "spec_bonus": 0.06
+      }
+    }
+  },
+  {
+    "symbol": "mzi_arm:mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "score": 0.946193853427896,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.546193853427896,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 13,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_1x1",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1.py",
+    "score": 0.9376328502415459,
+    "rationale": ": 50 nm Args: -radius: for the bend and coupler -gap: gap between for the coupler",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5476328502415458,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 9,
+        "spec_bonus": 0.09
+      }
+    }
+  },
+  {
+    "symbol": "edge_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\edge_coupler.py",
+    "score": 0.9320231213872833,
+    "rationale": "s is a design for an inverse taper edge coupler to couple light onto the chip. --- Name: Edge coupler Description: This ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5320231213872832,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 16,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "score": 0.9223654015887026,
+    "rationale": "ct (TO) Design wavelength: 1450-1650 nm Optical Bandwidth: 200 nm Polarization: TE/TM Modulation bandwidth/Switching spe",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5223654015887026,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "laser",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\laser.py",
+    "score": 0.907037037037037,
+    "rationale": "This is a laser with tunable wavelength. --- Name: laser Description: This is a laser with tunab",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.517037037037037,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 9,
+        "spec_bonus": 0.09
+      }
+    }
+  },
+  {
+    "symbol": "_gc",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+    "score": 0.1,
+    "rationale": "Keyword fallback: ensure relevant components appear in options.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.0,
+        "port_form_match": 0.0,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 21,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

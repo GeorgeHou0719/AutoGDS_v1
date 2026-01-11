@@ -1,0 +1,86 @@
+{
+  "schema_rev": "r1",
+  "placements": [
+    {
+      "name": "n0_0",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "x_um": 0.0,
+      "y_um": -100.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n1_0",
+      "symbol": "_gc",
+      "x_um": 90.0,
+      "y_um": -100.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n0_1",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "x_um": 0.0,
+      "y_um": -40.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n1_1",
+      "symbol": "_gc",
+      "x_um": 90.0,
+      "y_um": -40.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n0_2",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "x_um": 0.0,
+      "y_um": 20.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n1_2",
+      "symbol": "_gc",
+      "x_um": 90.0,
+      "y_um": 20.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n0_3",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "x_um": 0.0,
+      "y_um": 80.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n1_3",
+      "symbol": "_gc",
+      "x_um": 90.0,
+      "y_um": 80.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    }
+  ],
+  "issues": []
+}

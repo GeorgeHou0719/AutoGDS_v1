@@ -1,0 +1,359 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "n1",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 1
+    },
+    {
+      "node_id": "n2",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 2
+    },
+    {
+      "node_id": "n3",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 3
+    },
+    {
+      "node_id": "n4",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 4
+    },
+    {
+      "node_id": "n5",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 5
+    },
+    {
+      "node_id": "n6",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 6
+    },
+    {
+      "node_id": "gc0",
+      "role_raw": "grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Grating coupler attached to splitter-tree output.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "gc1",
+      "role_raw": "grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Grating coupler attached to splitter-tree output.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 1
+    },
+    {
+      "node_id": "gc2",
+      "role_raw": "grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Grating coupler attached to splitter-tree output.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 2
+    },
+    {
+      "node_id": "gc3",
+      "role_raw": "grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Grating coupler attached to splitter-tree output.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 3
+    },
+    {
+      "node_id": "gc4",
+      "role_raw": "grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Grating coupler attached to splitter-tree output.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 4
+    },
+    {
+      "node_id": "gc5",
+      "role_raw": "grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Grating coupler attached to splitter-tree output.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 5
+    },
+    {
+      "node_id": "gc6",
+      "role_raw": "grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Grating coupler attached to splitter-tree output.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 6
+    },
+    {
+      "node_id": "gc7",
+      "role_raw": "grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Grating coupler attached to splitter-tree output.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 7
+    }
+  ],
+  "intents": [
+    {
+      "a": "n0",
+      "a_port": "out0",
+      "b": "n1",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n0",
+      "a_port": "out1",
+      "b": "n2",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n1",
+      "a_port": "out0",
+      "b": "n3",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n1",
+      "a_port": "out1",
+      "b": "n4",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n2",
+      "a_port": "out0",
+      "b": "n5",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n2",
+      "a_port": "out1",
+      "b": "n6",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n3",
+      "a_port": "out0",
+      "b": "gc0",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n3",
+      "a_port": "out1",
+      "b": "gc1",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n4",
+      "a_port": "out0",
+      "b": "gc2",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n4",
+      "a_port": "out1",
+      "b": "gc3",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n5",
+      "a_port": "out0",
+      "b": "gc4",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n5",
+      "a_port": "out1",
+      "b": "gc5",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n6",
+      "a_port": "out0",
+      "b": "gc6",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n6",
+      "a_port": "out1",
+      "b": "gc7",
+      "b_port": "in0",
+      "intent": "signal"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "gc0",
+      "port": "out0"
+    },
+    "out1": {
+      "part": "gc1",
+      "port": "out0"
+    },
+    "out2": {
+      "part": "gc2",
+      "port": "out0"
+    },
+    "out3": {
+      "part": "gc3",
+      "port": "out0"
+    },
+    "out4": {
+      "part": "gc4",
+      "port": "out0"
+    },
+    "out5": {
+      "part": "gc5",
+      "port": "out0"
+    },
+    "out6": {
+      "part": "gc6",
+      "port": "out0"
+    },
+    "out7": {
+      "part": "gc7",
+      "port": "out0"
+    }
+  },
+  "notes": [
+    "Topology: Stage 1: 1x2 MMI takes the single input. Stage 2: two 1x2 MMIs split the two branches to four. Stage 3: four 1x2 MMIs split to eight outputs.",
+    "Route waveguides from each final-stage MMI output to a dedicated grating coupler, keeping path lengths matched if uniform phase is desired.",
+    "Maintain minimum bend radius, waveguide spacing, and crossing avoidance per process rules; use gentle S-bends/fanout to reach grating couplers.",
+    "If using a fiber array, place the 8 grating couplers in a straight line at standard pitch; ensure all couplers have the same coupling direction (or specify alternating if needed)."
+  ]
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "symbol": "mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "score": 1.0703052064631957,
+    "rationale": " Mach-Zehnder interferometer (MZI) arm. ports: 1x1 NodeLabels: - passive - 1x1 Bandwidth: 100 nm",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6703052064631957,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "score": 1.0664285714285713,
+    "rationale": "scription: This is a waveguide crossing ports: 1x1 NodeLabels: - passive Bandwidth: 100 nm Args: -length: straight lengt",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6764285714285714,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 9,
+        "spec_bonus": 0.09
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband:mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "score": 1.0167924528301886,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6167924528301887,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 21,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "score": 0.9804566210045662,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5804566210045662,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 28,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_bezier_curve:_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "score": 0.9635902636916835,
+    "rationale": "e. https://stackoverflow.com/questions/30277646/svg-convert-arcs-to-cubic-bezier",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5935902636916836,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 7,
+        "spec_bonus": 0.07
+      }
+    }
+  },
+  {
+    "symbol": "mrr_1x1",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1.py",
+    "score": 0.9409459459459459,
+    "rationale": ": 50 nm Args: -radius: for the bend and coupler -gap: gap between for the coupler",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5509459459459459,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 9,
+        "spec_bonus": 0.09
+      }
+    }
+  },
+  {
+    "symbol": "edge_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\edge_coupler.py",
+    "score": 0.9342986425339367,
+    "rationale": "s is a design for an inverse taper edge coupler to couple light onto the chip. --- Name: Edge coupler Description: This ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5342986425339367,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 16,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrm_1x1_pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrm_1x1_pndiode.py",
+    "score": 0.927682119205298,
+    "rationale": "ith PN Diodes for high speed modulation ports: 1x1 NodeLabels: - active - 1x1 Bandwidth: 50 nm Args: -length: straight l",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.527682119205298,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 10,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "laser",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\laser.py",
+    "score": 0.9260176991150443,
+    "rationale": "This is a laser with tunable wavelength ports: 1x1 NodeLabels: - active Bandwidth: 100 nm Args: -length: straight length",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5260176991150443,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 11,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi1",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi1.py",
+    "score": 0.9161990950226244,
+    "rationale": "is a Mach-Zehnder interferometer (MZI). ports: 1x1 NodeLabels: - passive - 1x1 Bandwidth: 50 nm Args: -length: straight ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5161990950226244,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "straight",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\straight.py",
+    "score": 0.915426731078905,
+    "rationale": "This is a straight single-mode waveguide aka photonic wire. --- Name: straight waveguide Descriptio",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.515426731078905,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "edge_coupler:edge_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\edge_coupler.py",
+    "score": 0.9138613861386139,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5138613861386139,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 16,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_gc",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+    "score": 0.1,
+    "rationale": "Keyword fallback: ensure relevant components appear in options.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.0,
+        "port_form_match": 0.0,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 22,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+# AutoGDS Netlist r1
+
+.part n0 _mmi1x2
+.param n0.role splitter_1x2
+
+.part n1 mrr_1x1_heater_tin:mrr_1x1_heater_tin
+.param n1.role ring_resonator
+
+.net n0 n0.o2 n1.o1
+.top in0 n0.in0
+.top out0 n1.out0
+
+.end

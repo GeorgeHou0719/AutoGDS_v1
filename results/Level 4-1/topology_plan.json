@@ -1,0 +1,392 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "n1",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 1
+    },
+    {
+      "node_id": "n2",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 2
+    },
+    {
+      "node_id": "n3",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 3
+    },
+    {
+      "node_id": "n4",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 4
+    },
+    {
+      "node_id": "n5",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 5
+    },
+    {
+      "node_id": "n6",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 6
+    },
+    {
+      "node_id": "n7",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 7
+    },
+    {
+      "node_id": "n8",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 8
+    },
+    {
+      "node_id": "n9",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 9
+    },
+    {
+      "node_id": "n10",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 10
+    },
+    {
+      "node_id": "n11",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 11
+    },
+    {
+      "node_id": "n12",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 12
+    },
+    {
+      "node_id": "n13",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 13
+    },
+    {
+      "node_id": "n14",
+      "role_raw": "1x2 MMI splitter (tree)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Binary splitter tree node (1 input, 2 outputs).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 14
+    }
+  ],
+  "intents": [
+    {
+      "a": "n0",
+      "a_port": "out0",
+      "b": "n1",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n0",
+      "a_port": "out1",
+      "b": "n2",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n1",
+      "a_port": "out0",
+      "b": "n3",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n1",
+      "a_port": "out1",
+      "b": "n4",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n2",
+      "a_port": "out0",
+      "b": "n5",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n2",
+      "a_port": "out1",
+      "b": "n6",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n3",
+      "a_port": "out0",
+      "b": "n7",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n3",
+      "a_port": "out1",
+      "b": "n8",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n4",
+      "a_port": "out0",
+      "b": "n9",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n4",
+      "a_port": "out1",
+      "b": "n10",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n5",
+      "a_port": "out0",
+      "b": "n11",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n5",
+      "a_port": "out1",
+      "b": "n12",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n6",
+      "a_port": "out0",
+      "b": "n13",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n6",
+      "a_port": "out1",
+      "b": "n14",
+      "b_port": "in0",
+      "intent": "signal"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n7",
+      "port": "out0"
+    },
+    "out1": {
+      "part": "n7",
+      "port": "out1"
+    },
+    "out2": {
+      "part": "n8",
+      "port": "out0"
+    },
+    "out3": {
+      "part": "n8",
+      "port": "out1"
+    },
+    "out4": {
+      "part": "n9",
+      "port": "out0"
+    },
+    "out5": {
+      "part": "n9",
+      "port": "out1"
+    },
+    "out6": {
+      "part": "n10",
+      "port": "out0"
+    },
+    "out7": {
+      "part": "n10",
+      "port": "out1"
+    },
+    "out8": {
+      "part": "n11",
+      "port": "out0"
+    },
+    "out9": {
+      "part": "n11",
+      "port": "out1"
+    },
+    "out10": {
+      "part": "n12",
+      "port": "out0"
+    },
+    "out11": {
+      "part": "n12",
+      "port": "out1"
+    },
+    "out12": {
+      "part": "n13",
+      "port": "out0"
+    },
+    "out13": {
+      "part": "n13",
+      "port": "out1"
+    },
+    "out14": {
+      "part": "n14",
+      "port": "out0"
+    },
+    "out15": {
+      "part": "n14",
+      "port": "out1"
+    }
+  },
+  "notes": [
+    "Cascade MMIs in a balanced binary tree (1→2→4→8→16).",
+    "Route waveguides to equalize optical path length from input to each of the 16 outputs where feasible (or document allowed imbalance).",
+    "Maintain consistent waveguide type and bends within PDK constraints; include crossings only if unavoidable.",
+    "Label ports as: input=IN; outputs=OUT[1..16] (ordering per layout preference).",
+    "Consider adding gradual fan-out/spacing between stages to meet minimum waveguide spacing and fiber-array / grating-coupler pitch requirements (if applicable)."
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "symbol": "wdm_mzi1x4:wdm_mzi1x4",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\wdm_mzi1x4.py",
+    "score": 1.0124742268041236,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5624742268041237,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 34,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "wdm_mzi1x4",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\wdm_mzi1x4.py",
+    "score": 0.9475202156334231,
+    "rationale": "tive aka: wavelength filter Technology: MZI N of channels: 4 channel spacing: 20 nm Design wavelength: 1271, 1291, 1311,",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.4975202156334232,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 34,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

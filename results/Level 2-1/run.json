@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "Two cascaded MZIs, each with TiN heaters for C-band operation. The device should have 500 nm wide waveguides and 10 um long heaters. Both MZIs have two input/output ports.",
+  "out": "runs",
+  "non_interactive": false
+}

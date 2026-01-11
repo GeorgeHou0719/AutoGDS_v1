@@ -1,0 +1,125 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0_0",
+      "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "n0_1",
+      "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 1
+    },
+    {
+      "node_id": "n0_2",
+      "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 2
+    },
+    {
+      "node_id": "n0_3",
+      "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 3
+    },
+    {
+      "node_id": "n0_4",
+      "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 4
+    },
+    {
+      "node_id": "n0_5",
+      "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 5
+    },
+    {
+      "node_id": "n0_6",
+      "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 6
+    },
+    {
+      "node_id": "n0_7",
+      "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 7
+    }
+  ],
+  "intents": [],
+  "top_ports": {},
+  "notes": [
+    "Arrange 8 identical phase shifters in parallel with repetition along the y-axis; use a uniform y-pitch to meet fabrication and electrical routing DRCs.",
+    "Provide one optical input and one optical output per phase shifter (total 16 optical ports) unless otherwise specified; align ports to enable easy edge/fiber-array coupling or on-chip routing.",
+    "Route heater electrical connections for each phase shifter to pads/bus lines without crossing optical waveguides where possible; maintain consistent pad placement (e.g., at one side of the array) for probing/packaging.",
+    "Minimize optical loss via adiabatic transitions into/out of the phase-shifter section; keep bends/routing outside the active heated region."
+  ]
+}

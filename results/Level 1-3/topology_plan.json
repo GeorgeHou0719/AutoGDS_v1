@@ -1,0 +1,39 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0",
+      "role_raw": "directional coupler",
+      "role_canonical": "generic_block",
+      "role_variant": "",
+      "notes": "2x2 directional coupler. Coupling gap = 0.5 µm. Straight coupling length = 50 µm. Waveguide cross-section, bend radii, and access waveguide geometry not specified.",
+      "required_port_form": "2x2",
+      "required_ports": {
+        "in": 2,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 0
+    }
+  ],
+  "intents": [],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n0",
+      "port": "out0"
+    },
+    "in1": {
+      "part": "n0",
+      "port": "in1"
+    },
+    "out1": {
+      "part": "n0",
+      "port": "out1"
+    }
+  },
+  "notes": []
+}

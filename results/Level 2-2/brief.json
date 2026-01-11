@@ -1,0 +1,27 @@
+{
+  "schema_rev": "r1",
+  "title": "2x2 Heated MZI to Grating Coupler Connection",
+  "summary": "Route Port 1 of a 2x2 MZI (with integrated heaters) to Port 0 of a grating coupler.",
+  "blocks": [
+    {
+      "role": "2x2 MZI (integrated heaters)",
+      "count": 1,
+      "notes": "Mach-Zehnder interferometer with two 2x2 couplers and integrated phase shifters/heaters for tuning. Exact heater configuration (single-arm or push-pull), electrical pads, and MZI internal geometry not specified."
+    },
+    {
+      "role": "Grating coupler",
+      "count": 1,
+      "notes": "Single optical port labeled Port 0. Grating type (vertical/fiber angle), polarization, and wavelength band not specified."
+    }
+  ],
+  "wiring_notes": [
+    "Connect optical output Port 1 of the 2x2 MZI to optical Port 0 of the grating coupler via a single waveguide route.",
+    "Assume consistent port naming/orientation between blocks; if library uses different conventions, map MZI Port 1 to GC Port 0 accordingly."
+  ],
+  "objective": {
+    "wl_um_min": null,
+    "wl_um_max": null,
+    "io_ports": null,
+    "target_behavior": "Optical connectivity: MZI port 1 → grating coupler port 0"
+  }
+}

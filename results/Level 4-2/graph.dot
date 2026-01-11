@@ -1,0 +1,25 @@
+digraph AutoGDS {
+  rankdir="LR";
+  node [shape=box];
+  "n0_0" [label="n0_0\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n0_1" [label="n0_1\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n0_2" [label="n0_2\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n1_0" [label="n1_0\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n1_1" [label="n1_1\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n1_2" [label="n1_2\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n2_0" [label="n2_0\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n2_1" [label="n2_1\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n2_2" [label="n2_2\nmzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband"];
+  "n0_0" -> "n0_1" [label="o3 -> o1"];
+  "n0_0" -> "n0_1" [label="o4 -> o2"];
+  "n0_1" -> "n0_2" [label="o3 -> o1"];
+  "n0_1" -> "n0_2" [label="o4 -> o2"];
+  "n1_0" -> "n1_1" [label="o3 -> o1"];
+  "n1_0" -> "n1_1" [label="o4 -> o2"];
+  "n1_1" -> "n1_2" [label="o3 -> o1"];
+  "n1_1" -> "n1_2" [label="o4 -> o2"];
+  "n2_0" -> "n2_1" [label="o3 -> o1"];
+  "n2_0" -> "n2_1" [label="o4 -> o2"];
+  "n2_1" -> "n2_2" [label="o3 -> o1"];
+  "n2_1" -> "n2_2" [label="o4 -> o2"];
+}

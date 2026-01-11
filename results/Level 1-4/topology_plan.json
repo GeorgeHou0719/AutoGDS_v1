@@ -1,0 +1,35 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0",
+      "role_raw": "Microring resonator (ring + bus coupler) with integrated heater",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Single ring resonator side-coupled to a bus waveguide (directional coupler/evanescent coupling region). Include an integrated heater over/near the ring for thermo-optic tuning; heater details (material/stack, resistance target, contact pads, keepouts) to be specified by PDK. Provide optical ports on the bus waveguide (through and drop optional; if add-drop, include a second bus waveguide).",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 0
+    }
+  ],
+  "intents": [],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n0",
+      "port": "out0"
+    }
+  },
+  "notes": [
+    "Expose optical IO on the bus waveguide ends (at least 2 ports: input and through).",
+    "If an add-drop configuration is desired, route a second bus waveguide to create a drop port pair (total 4 optical ports).",
+    "Provide electrical connectivity to the integrated heater via metal routing to bond pads; ensure optical-metal spacing/keepouts per PDK DRC."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schema_rev": "r1",
+  "footprints": [
+    {
+      "name": "n0_0",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n0_1",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n0_2",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n0_3",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n1_0",
+      "symbol": "_gc",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n1_1",
+      "symbol": "_gc",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n1_2",
+      "symbol": "_gc",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n1_3",
+      "symbol": "_gc",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "schema_rev": "r1",
+  "parts": [
+    {
+      "name": "n0_0",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_1",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_2",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1_0",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1_1",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1_2",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2_0",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2_1",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2_2",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    }
+  ],
+  "links": [
+    {
+      "a": "n0_0",
+      "a_port": "o3",
+      "b": "n0_1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0_0",
+      "a_port": "o4",
+      "b": "n0_1",
+      "b_port": "o2"
+    },
+    {
+      "a": "n0_1",
+      "a_port": "o3",
+      "b": "n0_2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0_1",
+      "a_port": "o4",
+      "b": "n0_2",
+      "b_port": "o2"
+    },
+    {
+      "a": "n1_0",
+      "a_port": "o3",
+      "b": "n1_1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1_0",
+      "a_port": "o4",
+      "b": "n1_1",
+      "b_port": "o2"
+    },
+    {
+      "a": "n1_1",
+      "a_port": "o3",
+      "b": "n1_2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1_1",
+      "a_port": "o4",
+      "b": "n1_2",
+      "b_port": "o2"
+    },
+    {
+      "a": "n2_0",
+      "a_port": "o3",
+      "b": "n2_1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2_0",
+      "a_port": "o4",
+      "b": "n2_1",
+      "b_port": "o2"
+    },
+    {
+      "a": "n2_1",
+      "a_port": "o3",
+      "b": "n2_2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2_1",
+      "a_port": "o4",
+      "b": "n2_2",
+      "b_port": "o2"
+    }
+  ],
+  "top_ports": {}
+}

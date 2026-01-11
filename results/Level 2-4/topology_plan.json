@@ -1,0 +1,58 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0",
+      "role_raw": "1x2 optical splitter",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Standard 1x2 splitter (e.g., Y-branch or 1x2 MMI). One input port, two output ports.",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "n1",
+      "role_raw": "1x1 microring resonator",
+      "role_canonical": "ring_resonator",
+      "role_variant": "",
+      "notes": "Single-bus (all-pass) microring resonator with one input and one output on the bus waveguide (no drop port). Coupling gap/length and ring radius unspecified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 0
+    }
+  ],
+  "intents": [
+    {
+      "a": "n0",
+      "a_port": "out0",
+      "b": "n1",
+      "b_port": "in0",
+      "intent": "signal"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n1",
+      "port": "out0"
+    }
+  },
+  "notes": [
+    "Connect splitter output port #1 to microring resonator input (bus input).",
+    "Expose microring resonator bus output as an external output port.",
+    "Expose splitter output port #2 as an external output port (unused/tap).",
+    "Expose splitter input as an external input port."
+  ]
+}

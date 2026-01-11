@@ -1,0 +1,2010 @@
+[
+  {
+    "symbol": "bend_euler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\bend_euler.py",
+    "doc": "This is a bend (or generally arc shaped) waveguide, with an Euler curvature.\n\n---\nName: bend_euler\nDescription: This is a bend (or generally arc shaped) waveguide, with an Euler curvature.\nports: 1x1\nNodeLabels:\n    - passive\n    - 1x1\nBandwidth: 100 nm\nArgs:\n    -radius: in um. Defaults to cross_section_radius.\n    -angle: total angle of the curve.\n    -npoints: Number of points used per 360 degrees.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "bend_euler",
+        "Description": "This is a bend (or generally arc shaped) waveguide, with an Euler curvature.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "radius": 10.0,
+        "angle": 90.0,
+        "p": 0.5,
+        "npoints": 500,
+        "width": 0.5,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "bend_euler:bend_euler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\bend_euler.py",
+    "doc": "This is a bend (or generally arc shaped) waveguide, with an Euler curvature.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "bend_euler",
+        "Description": "This is a bend (or generally arc shaped) waveguide, with an Euler curvature.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "radius": 10.0,
+        "angle": 90.0,
+        "p": 0.5,
+        "npoints": 500,
+        "width": 0.5,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "coupler_ring",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\coupler_ring.py",
+    "doc": "This is a directional coupler with an Euler curvature. Typically used to design ring resonators.\n\n---\nName: coupler_ring\nDescription: This is a directional coupler with an Euler curvature. Typically used to design ring resonators.\nports: 2x2\nNodeLabels:\n    - passive\n    - 2x2\nBandwidth: 100 nm\nArgs:\n    -gap: spacing between parallel coupled straight waveguides\n    -radius: radius of the 90 degree bends\n    -length_x: length of the parallel coupled straight waveguides",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive",
+        "2x2"
+      ],
+      "spec": {
+        "Name": "coupler_ring",
+        "Description": "This is a directional coupler with an Euler curvature. Typically used to design ring resonators.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.2,
+        "radius": 10.0,
+        "length_x": 4,
+        "bend": "bend_euler",
+        "straight": "straight",
+        "cross_section": "strip",
+        "cross_section_bend": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "coupler_ring:coupler_ring",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\coupler_ring.py",
+    "doc": "This is a directional coupler with an Euler curvature. Typically used to design ring resonators",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive",
+        "2x2"
+      ],
+      "spec": {
+        "Name": "coupler_ring",
+        "Description": "This is a directional coupler with an Euler curvature. Typically used to design ring resonators.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.2,
+        "radius": 10.0,
+        "length_x": 4,
+        "bend": "bend_euler",
+        "straight": "straight",
+        "cross_section": "strip",
+        "cross_section_bend": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "doc": "This is a waveguide crossing.\n\n---\nName: waveguide crossing\nDescription: This is a waveguide crossing\nports: 1x1\nNodeLabels:\n    - passive\nBandwidth: 100 nm\nArgs:\n    -length: straight length (um)",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "waveguide crossing",
+        "Description": "This is a waveguide crossing",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "crossing:crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "waveguide crossing",
+        "Description": "This is a waveguide crossing",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "edge_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\edge_coupler.py",
+    "doc": "This is a design for an inverse taper edge coupler to couple light onto the chip.\n\n---\nName: Edge coupler\nDescription: This is a design for an inverse taper edge coupler to couple light onto the chip.\nports: 1x1\nNodeLabels:\n    - passive\nBandwidth: 100 nm\nArgs:\n    -length: straight length (um)",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "Edge coupler",
+        "Description": "This is a design for an inverse taper edge coupler to couple light onto the chip.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 10.0,
+        "width1": 0.2,
+        "width2": 0.5,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "edge_coupler:edge_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\edge_coupler.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "Edge coupler",
+        "Description": "This is a design for an inverse taper edge coupler to couple light onto the chip.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 10.0,
+        "width1": 0.2,
+        "width2": 0.5,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_doped_si_cband.py",
+    "doc": "This module defines a heater formed using doped silicon waveguides (n++, n).\n\n---\nName: Doped silicon heater\nDescription: This is a heater formed using doped silicon waveguides (n++, n).\nports: 1x1\nNodeLabels:\n    - modulator\n    - active\n    - phase modulation (AM)\naka: phase modulator\nTechnology : Thermo-optic effect (TO)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 200 KHz\nInsertion loss: 2 dB\nExtinction ratio: N/A\nDrive voltage/power: 0.75 V\nFootprint Estimate: 110.4um x 164.2um",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "phase modulation (AM)"
+      ],
+      "spec": {
+        "Name": "Doped silicon heater",
+        "Description": "This is a heater formed using doped silicon waveguides (n++, n).",
+        "aka": "phase modulator",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "200 KHz",
+        "Insertion loss": "2 dB",
+        "Extinction ratio": "N/A",
+        "Drive voltage/power": "0.75 V",
+        "Footprint Estimate": "110.4um x 164.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 100.4,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "heater_doped_si_cband:heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_doped_si_cband.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "phase modulation (AM)"
+      ],
+      "spec": {
+        "Name": "Doped silicon heater",
+        "Description": "This is a heater formed using doped silicon waveguides (n++, n).",
+        "aka": "phase modulator",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "200 KHz",
+        "Insertion loss": "2 dB",
+        "Extinction ratio": "N/A",
+        "Drive voltage/power": "0.75 V",
+        "Footprint Estimate": "110.4um x 164.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 100.4,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+    "doc": "This module defines a heater with a Titanium nitride heating element for a thermo-optic phase shifter.\n\n---\nName: Titanium Nitride (TiN) Heater\nDescription: Thermo-optic phase shifter with a Titanium nitride heating element.\nports: 1x1\nNodeLabels:\n    - modulator\n    - active\n    - phase modulation (PM)\naka: phase modulator, thermo-optic phase shifter, heater\nTechnology : Thermo-optic effect (TO)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 30 KHz\nInsertion loss: 1 dB\nExtinction ratio: 25 dB\nDrive voltage/power: 25 mW\nFootprint Estimate: 397.0um x 130.0um\nArgs:\n    -length: straight length heater (um)",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "phase modulation (PM)"
+      ],
+      "spec": {
+        "Name": "Titanium Nitride (TiN) Heater",
+        "Description": "Thermo-optic phase shifter with a Titanium nitride heating element.",
+        "aka": "phase modulator, thermo-optic phase shifter, heater",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "30 KHz",
+        "Insertion loss": "1 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "25 mW",
+        "Footprint Estimate": "397.0um x 130.0um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 300,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "heater_tin_cband:heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "phase modulation (PM)"
+      ],
+      "spec": {
+        "Name": "Titanium Nitride (TiN) Heater",
+        "Description": "Thermo-optic phase shifter with a Titanium nitride heating element.",
+        "aka": "phase modulator, thermo-optic phase shifter, heater",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "30 KHz",
+        "Insertion loss": "1 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "25 mW",
+        "Footprint Estimate": "397.0um x 130.0um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 300,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "laser",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\laser.py",
+    "doc": "This is a laser with tunable wavelength.\n\n---\nName: laser\nDescription: This is a laser with tunable wavelength\nports: 1x1\nNodeLabels:\n    - active\nBandwidth: 100 nm\nArgs:\n    -length: straight length (um)",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "active"
+      ],
+      "spec": {
+        "Name": "laser",
+        "Description": "This is a laser with tunable wavelength",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 10.0,
+        "npoints": 2,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "laser:laser",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\laser.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "active"
+      ],
+      "spec": {
+        "Name": "laser",
+        "Description": "This is a laser with tunable wavelength",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 10.0,
+        "npoints": 2,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mode_converter",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mode_converter.py",
+    "doc": "This is a mode converter cell that converts the mode from TE0 to TE1.\n\n---\nName: Mode Converter\nDescription: Converts the mode from TE0 to TE1\nports: 2x2\nNodeLabels:\n    - passive\nBandwidth: 100 nm",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "Mode Converter",
+        "Description": "Converts the mode from TE0 to TE1",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.3,
+        "length": 10,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mode_converter:mode_converter",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mode_converter.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "Mode Converter",
+        "Description": "Converts the mode from TE0 to TE1",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.3,
+        "length": 10,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mrm_1x1_pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrm_1x1_pndiode.py",
+    "doc": "This is a microring modulator with PN Diodes for high speed modulation.\n\n---\nName: Microring Modulator with PN Diode\nDescription: This is a microring modulator with PN Diodes for high speed modulation\nports: 1x1\nNodeLabels:\n    - active\n    - 1x1\nBandwidth: 50 nm\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "active",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "Microring Modulator with PN Diode",
+        "Description": "This is a microring modulator with PN Diodes for high speed modulation",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.3,
+        "radius": 5
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mrm_1x1_pndiode:mrm_1x1_pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrm_1x1_pndiode.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "active",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "Microring Modulator with PN Diode",
+        "Description": "This is a microring modulator with PN Diodes for high speed modulation",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.3,
+        "radius": 5
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mrr_1x1",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1.py",
+    "doc": "This is a Micro-ring Resonator.\n\n---\nName: mrr\nDescription: This is a Micro-ring Resonator.\nports: 1x1\nNodeLabels:\n    - passive\n    - 1x1\nBandwidth: 50 nm\nArgs:\n    -radius: for the bend and coupler\n    -gap: gap between for the coupler",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "mrr",
+        "Description": "This is a Micro-ring Resonator.",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.2,
+        "radius": 10
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mrr_1x1:mrr_1x1",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "mrr",
+        "Description": "This is a Micro-ring Resonator.",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.2,
+        "radius": 10
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mrr_1x1_heater_tin",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+    "doc": "This is a microring resonator with TiN heater for modulation.\n\n---\nName: Microring Resonator with TiN Heater\nDescription: This is a microring resonator with TiN heater for modulation\nports: 1x1\nNodeLabels:\n    - active\n    - 1x1\nBandwidth: 50 nm\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "active",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "Microring Resonator with TiN Heater",
+        "Description": "This is a microring resonator with TiN heater for modulation",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.2,
+        "radius": 10
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "active",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "Microring Resonator with TiN Heater",
+        "Description": "This is a microring resonator with TiN heater for modulation",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.2,
+        "radius": 10
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mrr_2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_2x2.py",
+    "doc": "This is a double bus Micro-ring Resonator.\n\n---\nName: mrr\nDescription: This is a double bus Micro-ring Resonator.\nports: 2x2\nNodeLabels:\n    - passive\n    - 2x2\nBandwidth: 50 nm\nArgs:\n    -radius: for the bend and coupler\n    -gap: gap between for the coupler",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive",
+        "2x2"
+      ],
+      "spec": {
+        "Name": "mrr",
+        "Description": "This is a double bus Micro-ring Resonator.",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.2,
+        "radius": 10
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mrr_2x2:mrr_2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_2x2.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive",
+        "2x2"
+      ],
+      "spec": {
+        "Name": "mrr",
+        "Description": "This is a double bus Micro-ring Resonator.",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "gap": 0.2,
+        "radius": 10
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi1",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi1.py",
+    "doc": "This is a Mach-Zehnder interferometer (MZI).\n\n---\nName: mzi1\nDescription: This is a Mach-Zehnder interferometer (MZI).\nports: 1x1\nNodeLabels:\n    - passive\n    - 1x1\nBandwidth: 50 nm\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "mzi1",
+        "Description": "This is a Mach-Zehnder interferometer (MZI).",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 10,
+        "length": 10
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi1:mzi1",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi1.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "mzi1",
+        "Description": "This is a Mach-Zehnder interferometer (MZI).",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 10,
+        "length": 10
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "doc": "This is a 1x1 Mach-Zehnder interferometer (MZI) with 50-50 directional couplers.\n\n---\nName: MZI 1x1 - Thermo-optic (mzi_1x1_heater_doped_si_cband)\nDescription: >\n    This is a 1x1 Mach-Zehnder interferometer (MZI) with 50-50 directional couplers.\n    Integrated in both arms of the MZI are doped heaters.\nports: 1x1\nNodeLabels:\n    - modulator\n    - active\n    - amplitude modulation (AM)\naka: amplitude modulator, Mach-Zehnder interferometer, MZI\nTechnology : Thermo-optic effect (TO)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 200 KHz\nInsertion loss: 2 dB\nExtinction ratio: 25 dB\nDrive voltage/power: 0.75 V\nFootprint Estimate: 435.6um x 464.2um\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 1x1 - Thermo-optic (mzi_1x1_heater_doped_si_cband)",
+        "Description": "This is a 1x1 Mach-Zehnder interferometer (MZI) with 50-50 directional couplers.\nIntegrated in both arms of the MZI are doped heaters.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "200 KHz",
+        "Insertion loss": "2 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "0.75 V",
+        "Footprint Estimate": "435.6um x 464.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 10,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 1x1 - Thermo-optic (mzi_1x1_heater_doped_si_cband)",
+        "Description": "This is a 1x1 Mach-Zehnder interferometer (MZI) with 50-50 directional couplers.\nIntegrated in both arms of the MZI are doped heaters.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "200 KHz",
+        "Insertion loss": "2 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "0.75 V",
+        "Footprint Estimate": "435.6um x 464.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 10,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "doc": "This is a 1x1 Mach-Zehnder interferometer (MZI).\n\n---\nName: MZI 1x1 - PIN Diode\nDescription: >\n    This is a 1x1 Mach-Zehnder interferometer (MZI).\n    Integrated in both arms of the MZI are PIN Diode.\nports: 1x1\nNodeLabels:\n    - modulator\n    - active\n    - amplitude modulation (AM)\naka: amplitude modulator, Mach-Zehnder interferometer, MZI\nTechnology : Thermo-optic effect (TO)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 1 GHz\nInsertion loss: 2-20 dB\nExtinction ratio: 25 dB\nDrive voltage/power: 2 mW\nFootprint Estimate: 435.62um x 462.2um\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 1x1 - PIN Diode",
+        "Description": "This is a 1x1 Mach-Zehnder interferometer (MZI).\nIntegrated in both arms of the MZI are PIN Diode.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "1 GHz",
+        "Insertion loss": "2-20 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "435.62um x 462.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 10,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband:mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 1x1 - PIN Diode",
+        "Description": "This is a 1x1 Mach-Zehnder interferometer (MZI).\nIntegrated in both arms of the MZI are PIN Diode.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "1 GHz",
+        "Insertion loss": "2-20 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "435.62um x 462.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 10,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_1x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x2_pindiode_cband.py",
+    "doc": "This is a 1x2 Mach-Zehnder interferometer (MZI).\n\n---\nName: MZI 1x2 - PIN Diode\nDescription: >\n    This is a 1x2 Mach-Zehnder interferometer (MZI).\n    Integrated in both arms of the MZI are PIN Diode.\nports: 1x2\nNodeLabels:\n    - modulator\n    - active\n    - amplitude modulation (AM)\naka: amplitude modulator, Mach-Zehnder interferometer, MZI\nTechnology : Plasma Dispersion effect (TO)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 30 KHz\nInsertion loss: 2-20 dB\nExtinction ratio: 25 dB\nDrive voltage/power: 2 mW\nFootprint Estimate: 428um x 512um\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.\n\nArgs:\n  length:\n    description: straight length heater (um)\n  delta_length:\n    description: path length difference (um). bottom arm vertical extra length.\n    optimizable: true\n    opt_range:\n      - 0\n      - 100\n\nspecs:\n  lambda_0: 1.55\n  fsr: 0.025\n  transmission_fn: target_transfer",
+    "contract": {
+      "port_form": "1x2",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 1x2 - PIN Diode",
+        "Description": "This is a 1x2 Mach-Zehnder interferometer (MZI).\nIntegrated in both arms of the MZI are PIN Diode.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Plasma Dispersion effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "30 KHz",
+        "Insertion loss": "2-20 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "428um x 512um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 100,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_1x2_pindiode_cband:mzi_1x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x2_pindiode_cband.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x2",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 1x2 - PIN Diode",
+        "Description": "This is a 1x2 Mach-Zehnder interferometer (MZI).\nIntegrated in both arms of the MZI are PIN Diode.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Plasma Dispersion effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "30 KHz",
+        "Insertion loss": "2-20 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "428um x 512um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 100,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_2x2_heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+    "doc": "This is a 2x2 Mach-Zehnder interferometer (MZI).\n\n---\nName: MZI 2x2 - Thermo-optic\nDescription: >\n    This is a 2x2 Mach-Zehnder interferometer (MZI).\n    Integrated in both arms of the MZI are TiN Heaters.\nports: 2x2\nNodeLabels:\n    - modulator\n    - active\n    - amplitude modulation (AM)\naka: amplitude modulator, Mach-Zehnder interferometer, MZI\nTechnology: Thermo-optic effect (TO)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 200 KHz\nInsertion loss: 2 dB\nExtinction ratio: 25 dB\nDrive voltage/power: 0.75 V\nFootprint Estimate: 516.42um x 295.07um\n\nArgs:\n  length:\n    description: straight length heater (um)\n  delta_length:\n    description: path length difference (um). bottom arm vertical extra length.\n    optimizable: true\n    opt_range:\n      - 0\n      - 100\n\nspecs:\n  lambda_0: 1.55\n  fsr: 0.025\n  transmission_fn: target_transfer",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 2x2 - Thermo-optic",
+        "Description": "This is a 2x2 Mach-Zehnder interferometer (MZI).\nIntegrated in both arms of the MZI are TiN Heaters.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "200 KHz",
+        "Insertion loss": "2 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "0.75 V",
+        "Footprint Estimate": "516.42um x 295.07um"
+      },
+      "args_doc": [
+        "length",
+        "delta_length"
+      ],
+      "args_sig": {
+        "delta_length": 40,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 2x2 - Thermo-optic",
+        "Description": "This is a 2x2 Mach-Zehnder interferometer (MZI).\nIntegrated in both arms of the MZI are TiN Heaters.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Thermo-optic effect (TO)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "200 KHz",
+        "Insertion loss": "2 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "0.75 V",
+        "Footprint Estimate": "516.42um x 295.07um"
+      },
+      "args_doc": [
+        "length",
+        "delta_length"
+      ],
+      "args_sig": {
+        "delta_length": 40,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pindiode_cband.py",
+    "doc": "This is a 2x2 Mach-Zehnder interferometer (MZI).\n\n---\nName: MZI 2x2 - PIN Diode\nDescription: >\n    This is a 2x2 Mach-Zehnder interferometer (MZI).\n    Integrated in both arms of the MZI are PIN Diode. The MZI uses 2x2 MMIs.\nports: 2x2\nNodeLabels:\n    - modulator\n    - active\n    - amplitude modulation (AM)\naka: amplitude modulator, Mach-Zehnder interferometer, MZI\nTechnology : Plasma-Dispersion effect\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 1 GHz\nInsertion loss: 2-20 dB\nExtinction ratio: 25 dB\nDrive voltage/power: 2 mW\nFootprint Estimate: 502.42um x 462.2um\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 2x2 - PIN Diode",
+        "Description": "This is a 2x2 Mach-Zehnder interferometer (MZI).\nIntegrated in both arms of the MZI are PIN Diode. The MZI uses 2x2 MMIs.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Plasma-Dispersion effect",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "1 GHz",
+        "Insertion loss": "2-20 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "502.42um x 462.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 40,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pindiode_cband:mzi_2x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pindiode_cband.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 2x2 - PIN Diode",
+        "Description": "This is a 2x2 Mach-Zehnder interferometer (MZI).\nIntegrated in both arms of the MZI are PIN Diode. The MZI uses 2x2 MMIs.",
+        "aka": "amplitude modulator, Mach-Zehnder interferometer, MZI",
+        "Technology": "Plasma-Dispersion effect",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "1 GHz",
+        "Insertion loss": "2-20 dB",
+        "Extinction ratio": "25 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "502.42um x 462.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "delta_length": 40,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pn_diode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pn_diode.py",
+    "doc": "This is a 2x2 Mach-Zehnder Interferometer (MZI) with a pn diode.\n\n---\nName: MZI 2x2 PN Diode\nDescription: >\n    This is a pn diode.\n    The device is operated in reverse bias which causes carrier injectio in the waveguide core.\nports: 2x2\nNodeLabels:\n    - modulator\n    - active\n    - amplitude modulation (AM)\naka: amplitude modulator, PN Junction\nTechnology : Plasma Dispersion Effect (PD)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 20 GHz\nInsertion loss: 6.5 dB\nExtinction ratio: 4.4 dB\nDrive voltage/power: 2 mW\nFootprint Estimate: 532.4um x 468.5um\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 2x2 PN Diode",
+        "Description": "This is a pn diode.\nThe device is operated in reverse bias which causes carrier injectio in the waveguide core.",
+        "aka": "amplitude modulator, PN Junction",
+        "Technology": "Plasma Dispersion Effect (PD)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "20 GHz",
+        "Insertion loss": "6.5 dB",
+        "Extinction ratio": "4.4 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "532.4um x 468.5um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "dy": 80,
+        "coupling1": 0.5,
+        "coupling2": 0.5,
+        "delta_length": 50,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pn_diode:mzi_2x2_pn_diode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pn_diode.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "MZI 2x2 PN Diode",
+        "Description": "This is a pn diode.\nThe device is operated in reverse bias which causes carrier injectio in the waveguide core.",
+        "aka": "amplitude modulator, PN Junction",
+        "Technology": "Plasma Dispersion Effect (PD)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "20 GHz",
+        "Insertion loss": "6.5 dB",
+        "Extinction ratio": "4.4 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "532.4um x 468.5um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "dy": 80,
+        "coupling1": 0.5,
+        "coupling2": 0.5,
+        "delta_length": 50,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "doc": "This is a Mach-Zehnder interferometer (MZI) arm.\n\n---\nName: mzi_arm\nDescription: This is a Mach-Zehnder interferometer (MZI) arm.\nports: 1x1\nNodeLabels:\n    - passive\n    - 1x1\nBandwidth: 100 nm",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "mzi_arm",
+        "Description": "This is a Mach-Zehnder interferometer (MZI) arm.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length_y": 1
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "mzi_arm:mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "mzi_arm",
+        "Description": "This is a Mach-Zehnder interferometer (MZI) arm.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length_y": 1
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "photodetector",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\photodetector.py",
+    "doc": "This is a design for a germanium photodetector.\n\n---\nName: Germanium photodetector (PD)\nDescription: This is a design for a germanium photodetector\nports: 1x1\nNodeLabels:\n    - active\nBandwidth: 100 nm\nArgs:\n    -length: straight length (um)",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "active"
+      ],
+      "spec": {
+        "Name": "Germanium photodetector (PD)",
+        "Description": "This is a design for a germanium photodetector",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 40.0
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "photodetector:photodetector",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\photodetector.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "active"
+      ],
+      "spec": {
+        "Name": "Germanium photodetector (PD)",
+        "Description": "This is a design for a germanium photodetector",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 40.0
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pindiode_cband.py",
+    "doc": "This is a pin diode.\n\n---\nName: PIN Diode\nDescription: >\n    This is a pin diode.\n    The device is operated in forward bias which causes carrier injectio in the waveguide core.\nports: 1x1\nNodeLabels:\n    - modulator\n    - active\n    - amplitude modulation (AM)\n    - Variable Optical Attenuator (VOA)\naka: amplitude modulator, PIN diode, Variable Optical Attenuator (VOA)\nTechnology : Plasma Dispersion Effect\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 1 GHz\nInsertion loss: 2-20 dB\nExtinction ratio: N/A\nDrive voltage/power: 2 mW\nFootprint Estimate: 510.0um x 162.2um\nArgs:\n    -length: straight length pin diode (um)",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)",
+        "Variable Optical Attenuator (VOA)"
+      ],
+      "spec": {
+        "Name": "PIN Diode",
+        "Description": "This is a pin diode.\nThe device is operated in forward bias which causes carrier injectio in the waveguide core.",
+        "aka": "amplitude modulator, PIN diode, Variable Optical Attenuator (VOA)",
+        "Technology": "Plasma Dispersion Effect",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "1 GHz",
+        "Insertion loss": "2-20 dB",
+        "Extinction ratio": "N/A",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "510.0um x 162.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 500,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "pindiode_cband:pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pindiode_cband.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)",
+        "Variable Optical Attenuator (VOA)"
+      ],
+      "spec": {
+        "Name": "PIN Diode",
+        "Description": "This is a pin diode.\nThe device is operated in forward bias which causes carrier injectio in the waveguide core.",
+        "aka": "amplitude modulator, PIN diode, Variable Optical Attenuator (VOA)",
+        "Technology": "Plasma Dispersion Effect",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "1 GHz",
+        "Insertion loss": "2-20 dB",
+        "Extinction ratio": "N/A",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "510.0um x 162.2um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 500,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pndiode.py",
+    "doc": "This is a PN diode.\n\n---\nName: PN Diode\nDescription: >\n    This is a pn diode.\n    The device is operated in reverse bias which causes carrier injectio in the waveguide core.\nports: 1x1\nNodeLabels:\n    - modulator\n    - active\n    - phase modulation (PM)\naka: phase modulator, PN Junction, high-speed phase modulator\nTechnology : Plasma Dispersion Effect (PD)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 20 GHz\nInsertion loss: 6.5 dB\nExtinction ratio: N/A\nDrive voltage/power: 2 mW\nInputs: 1\nOutputs: 1\nEstimated Footprint: 640.0um x 168.5um\nArgs:\n    -straight length pn diode (um)",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "phase modulation (PM)"
+      ],
+      "spec": {
+        "Name": "PN Diode",
+        "Description": "This is a pn diode.\nThe device is operated in reverse bias which causes carrier injectio in the waveguide core.",
+        "aka": "phase modulator, PN Junction, high-speed phase modulator",
+        "Technology": "Plasma Dispersion Effect (PD)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "20 GHz",
+        "Insertion loss": "6.5 dB",
+        "Extinction ratio": "N/A",
+        "Drive voltage/power": "2 mW",
+        "Inputs": 1,
+        "Outputs": 1,
+        "Estimated Footprint": "640.0um x 168.5um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 600,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "pndiode:pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pndiode.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "phase modulation (PM)"
+      ],
+      "spec": {
+        "Name": "PN Diode",
+        "Description": "This is a pn diode.\nThe device is operated in reverse bias which causes carrier injectio in the waveguide core.",
+        "aka": "phase modulator, PN Junction, high-speed phase modulator",
+        "Technology": "Plasma Dispersion Effect (PD)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "20 GHz",
+        "Insertion loss": "6.5 dB",
+        "Extinction ratio": "N/A",
+        "Drive voltage/power": "2 mW",
+        "Inputs": 1,
+        "Outputs": 1,
+        "Estimated Footprint": "640.0um x 168.5um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 600,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "polarization_splitter_rotator",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\polarization_splitter_rotator.py",
+    "doc": "This is a polarization splitter rotator used (1) separate TE and TM polarized light.\n\n---\nName: Polarization splitter rotator (PSR)\nDescription: >\nThis is a polarization splitter rotator used (1) separate TE and TM polarized light\nand (2) convert the TM polarized light to TE polarized light.\nports: 1x2\nNodeLabels:\n    - passive\nBandwidth: 70 nm",
+    "contract": {
+      "port_form": "1x2",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "Polarization splitter rotator (PSR)",
+        "Description": "This is a polarization splitter rotator used (1) separate TE and TM polarized light\nand (2) convert the TM polarized light to TE polarized light.",
+        "Bandwidth": "70 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "polarization_splitter_rotator:polarization_splitter_rotator",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\polarization_splitter_rotator.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x2",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "Polarization splitter rotator (PSR)",
+        "Description": "This is a polarization splitter rotator used (1) separate TE and TM polarized light\nand (2) convert the TM polarized light to TE polarized light.",
+        "Bandwidth": "70 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "straight",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\straight.py",
+    "doc": "This is a straight single-mode waveguide aka photonic wire.\n\n---\nName: straight waveguide\nDescription: This is a straight single-mode waveguide aka photonic wire.\nports: 1x1\nNodeLabels:\n    - passive\nBandwidth: 100 nm\nArgs:\n    -length: straight length (um)",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "straight waveguide",
+        "Description": "This is a straight single-mode waveguide aka photonic wire.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 10.0,
+        "npoints": 2,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "straight:straight",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\straight.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "straight waveguide",
+        "Description": "This is a straight single-mode waveguide aka photonic wire.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 10.0,
+        "npoints": 2,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "tw_mzm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\tw_mzm.py",
+    "doc": "This is a Mach-Zehnder modulator that uses a pn-diode phase shifter and traveling-wave electrode for high-frequency operation.\n\n---\nName: Traveling-wave Mach Zehnder Modulator (TW-MZM)\nDescription: >\n    This is a Mach-Zehnder modulator that uses a pn-diode phase shifter\n    and traveling-wave electrode for high-frequency operation.\nports: 1x1\nNodeLabels:\n    - modulator\n    - active\n    - amplitude modulation (AM)\naka: amplitude modulator, PN Junction\nTechnology : Plasma Dispersion Effect (PD)\nDesign wavelength: 1450-1650 nm\nOptical Bandwidth: 200 nm\nPolarization: TE/TM\nModulation bandwidth/Switching speed: 20 GHz\nInsertion loss: 6.5 dB\nExtinction ratio: 4.4 dB\nDrive voltage/power: 2 mW\nFootprint Estimate: 532.4um x 468.5um\nArgs:\n    -length: straight length heater (um)\n    -delta_length: path length difference (um). bottom arm vertical extra length.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "Traveling-wave Mach Zehnder Modulator (TW-MZM)",
+        "Description": "This is a Mach-Zehnder modulator that uses a pn-diode phase shifter\nand traveling-wave electrode for high-frequency operation.",
+        "aka": "amplitude modulator, PN Junction",
+        "Technology": "Plasma Dispersion Effect (PD)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "20 GHz",
+        "Insertion loss": "6.5 dB",
+        "Extinction ratio": "4.4 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "532.4um x 468.5um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "dy": 80,
+        "coupling1": 0.5,
+        "coupling2": 0.5,
+        "delta_length": 50,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "tw_mzm:tw_mzm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\tw_mzm.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "modulator",
+        "active",
+        "amplitude modulation (AM)"
+      ],
+      "spec": {
+        "Name": "Traveling-wave Mach Zehnder Modulator (TW-MZM)",
+        "Description": "This is a Mach-Zehnder modulator that uses a pn-diode phase shifter\nand traveling-wave electrode for high-frequency operation.",
+        "aka": "amplitude modulator, PN Junction",
+        "Technology": "Plasma Dispersion Effect (PD)",
+        "Design wavelength": "1450-1650 nm",
+        "Optical Bandwidth": "200 nm",
+        "Polarization": "TE/TM",
+        "Modulation bandwidth/Switching speed": "20 GHz",
+        "Insertion loss": "6.5 dB",
+        "Extinction ratio": "4.4 dB",
+        "Drive voltage/power": "2 mW",
+        "Footprint Estimate": "532.4um x 468.5um"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "dy": 80,
+        "coupling1": 0.5,
+        "coupling2": 0.5,
+        "delta_length": 50,
+        "length": 320
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "wdm_mzi1x4",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\wdm_mzi1x4.py",
+    "doc": "This file contains the design of a 1-to-4 wavelength (de-)multiplexer designed using a binary tree of cascaded Mach-Zehnder-like lattice filters. This device is engineered to function as a coarse wavelength division multiplexing (cWDM) filter for optical data communication.\n\n---\nName: Cascaded Mach-Zehnder WDM Filter\npaper: https://opg.optica.org/oe/fulltext.cfm?uri=oe-21-10-11652&id=253305\nDescription: >\n    A 1-to-4 wavelength (de-)multiplexer designed using a binary tree of cascaded Mach-Zehnder-like\n    lattice filters. This device is engineered to function as a coarse wavelength division multiplexing (cWDM)\n    filter for optical data communication.\nports: 1x4\nNodeLabels:\n    - WDM\n    - CWDM\n    - active\naka: wavelength filter\nTechnology: MZI\nN of channels: 4\nchannel spacing: 20 nm\nDesign wavelength: 1271, 1291, 1311, 1331 nm\nOptical Bandwidth: 2 nm\nPolarization: TE\nInsertion loss: 2.5 dB\nExtinction ratio: 23 dB\nInputs: 1\nOutputs: 4",
+    "contract": {
+      "port_form": "1x4",
+      "node_labels": [
+        "WDM",
+        "CWDM",
+        "active"
+      ],
+      "spec": {
+        "Name": "Cascaded Mach-Zehnder WDM Filter",
+        "paper": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-21-10-11652&id=253305",
+        "Description": "A 1-to-4 wavelength (de-)multiplexer designed using a binary tree of cascaded Mach-Zehnder-like\nlattice filters. This device is engineered to function as a coarse wavelength division multiplexing (cWDM)\nfilter for optical data communication.",
+        "aka": "wavelength filter",
+        "Technology": "MZI",
+        "N of channels": 4,
+        "channel spacing": "20 nm",
+        "Design wavelength": "1271, 1291, 1311, 1331 nm",
+        "Optical Bandwidth": "2 nm",
+        "Polarization": "TE",
+        "Insertion loss": "2.5 dB",
+        "Extinction ratio": "23 dB",
+        "Inputs": 1,
+        "Outputs": 4
+      },
+      "args_doc": [],
+      "args_sig": {
+        "dy": 120
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "o5"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "wdm_mzi1x4:wdm_mzi1x4",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\wdm_mzi1x4.py",
+    "doc": "The component.",
+    "contract": {
+      "port_form": "1x4",
+      "node_labels": [
+        "WDM",
+        "CWDM",
+        "active"
+      ],
+      "spec": {
+        "Name": "Cascaded Mach-Zehnder WDM Filter",
+        "paper": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-21-10-11652&id=253305",
+        "Description": "A 1-to-4 wavelength (de-)multiplexer designed using a binary tree of cascaded Mach-Zehnder-like\nlattice filters. This device is engineered to function as a coarse wavelength division multiplexing (cWDM)\nfilter for optical data communication.",
+        "aka": "wavelength filter",
+        "Technology": "MZI",
+        "N of channels": 4,
+        "channel spacing": "20 nm",
+        "Design wavelength": "1271, 1291, 1311, 1331 nm",
+        "Optical Bandwidth": "2 nm",
+        "Polarization": "TE",
+        "Insertion loss": "2.5 dB",
+        "Extinction ratio": "23 dB",
+        "Inputs": 1,
+        "Outputs": 4
+      },
+      "args_doc": [],
+      "args_sig": {
+        "dy": 120
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "o5"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "_bend_s",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bend_s.py",
+    "doc": "This is a s-bend using bezier curves.\n\n---\nName: bend_s\nDescription: This is an s-bend using bezier curves.\nports: 1x1\nNodeLabels:\n    - passive\n    - 1x1\nBandwidth: 100 nm\nArgs:\n    -size: in x (length) and y (height) direction.",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "bend_s",
+        "Description": "This is an s-bend using bezier curves.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "size": null,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "doc": "This is a bend (or generally arc shaped) waveguide.\n\n---\nName: bezier_curve\nDescription: |\n    This is a bend (or generally arc shaped) waveguide.\n    The function maps a radii and and an angle to a 4 control points that implements the Bezier Curve.\nports: 1x1\nNodeLabels:\n    - passive\n    - 1x1\nBandwidth:",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "bezier_curve",
+        "Description": "This is a bend (or generally arc shaped) waveguide.\nThe function maps a radii and and an angle to a 4 control points that implements the Bezier Curve.",
+        "Bandwidth": ""
+      },
+      "args_doc": [],
+      "args_sig": {
+        "radius": 10,
+        "angle": 90
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "_bezier_curve:_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "doc": "This is a bezier curve.\n\nhttps://stackoverflow.com/questions/30277646/svg-convert-arcs-to-cubic-bezier",
+    "contract": {
+      "port_form": "1x1",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "bezier_curve",
+        "Description": "This is a bend (or generally arc shaped) waveguide.\nThe function maps a radii and and an angle to a 4 control points that implements the Bezier Curve.",
+        "Bandwidth": ""
+      },
+      "args_doc": [],
+      "args_sig": {
+        "radius": 10,
+        "angle": 90
+      },
+      "ports_exposed": [
+        "o1",
+        "o2"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "_directional_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_directional_coupler.py",
+    "doc": "This is a directional coupler with two input and two output ports.\n\n---\nName: directional_coupler\nDescription: >\n    A directional coupler with two input and two output ports.\n    Can be used for power splitting.\nports: 2x2\nNodeLabels:\n    - passive\nBandwidth: 50 nm\nArgs:\n    -gap: between straights in um.\n    -length: of coupling region in um.\n    -dy: port to port vertical spacing in um.\n    -dx: length of bend in x direction in um.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "directional_coupler",
+        "Description": "A directional coupler with two input and two output ports.\nCan be used for power splitting.",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length": 20.0,
+        "gap": 0.236,
+        "dy": 4.0,
+        "dx": 10.0
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "_directional_coupler_adiabatic",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_directional_coupler_adiabatic.py",
+    "doc": "This is an adiabatic directional coupler with two input and two output ports.\n\n---\nName: directional_coupler\nDescription: >\n    This is an adiabatic directional coupler with two input and two output ports.\n    Can be used for 50:50 power splitting. The device is optimized for 1480 nm.\nports: 2x2\nNodeLabels:\n    - passive\nBandwidth: 50 nm",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive"
+      ],
+      "spec": {
+        "Name": "directional_coupler",
+        "Description": "This is an adiabatic directional coupler with two input and two output ports.\nCan be used for 50:50 power splitting. The device is optimized for 1480 nm.",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {},
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "_gc",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+    "doc": "This is a grating coupler used for I/O to the PIC.\n\n---\nName: _gc\nDescription: This is a grating coupler used for I/O to the PIC.\nports: 1x0\nNodeLabels:\n    - passive\n    - 1x1\nBandwidth: 100 nm",
+    "contract": {
+      "port_form": "1x0",
+      "node_labels": [
+        "passive",
+        "1x1"
+      ],
+      "spec": {
+        "Name": "_gc",
+        "Description": "This is a grating coupler used for I/O to the PIC.",
+        "Bandwidth": "100 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "polarization": "te",
+        "taper_length": 16.6,
+        "taper_angle": 40.0,
+        "wavelength": 1.554,
+        "fiber_angle": 15.0,
+        "grating_line_width": 0.343,
+        "neff": 2.638,
+        "nclad": 1.443,
+        "n_periods": 30,
+        "big_last_tooth": 0.0,
+        "layer_slab": "SLAB90",
+        "slab_xmin": null,
+        "slab_offset": 2.0,
+        "spiked": 1.0,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "_mmi1x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+    "doc": "This is a multimode interferometer with one input and two output ports.\n\n---\nName: mmi1x2\nDescription: >\n    This multimode interferometer has one input and two output ports.\n    It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs.\n    Each output receives half of the input power, ensuring balanced splitting.\nports: 1x2\nNodeLabels:\n    - passive\n    - 1x2\nBandwidth: 50 nm\nArgs:\n    -width: input and output straight width. Defaults to cross_section width.\n    -width_taper: interface between input straights and mmi region.\n    -length_taper: into the mmi region.\n    -length_mmi: in x direction.\n    -width_mmi: in y direction.\n    -gap_mmi:  gap between tapered wg.",
+    "contract": {
+      "port_form": "1x2",
+      "node_labels": [
+        "passive",
+        "1x2"
+      ],
+      "spec": {
+        "Name": "mmi1x2",
+        "Description": "This multimode interferometer has one input and two output ports.\nIt functions as a beamsplitter or power splitter, dividing the input equally between the two outputs.\nEach output receives half of the input power, ensuring balanced splitting.",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "length_mmi": 12.8,
+        "width_mmi": 3.8,
+        "gap_mmi": 0.25,
+        "length_taper": 10.0,
+        "width_taper": 1.4
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "param_passthrough": {}
+    }
+  },
+  {
+    "symbol": "_mmi2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi2x2.py",
+    "doc": "This is a multimode interferometer with two input and two output ports.\n\n---\nName: mmi2x2\nDescription: A multimode interferometer with two input and two output ports.\nports: 2x2\nNodeLabels:\n    - passive\n    - 2x2\nBandwidth: 50 nm\nArgs:\n    -width: input and output straight width. Defaults to cross_section width.\n    -width_taper: interface between input straights and mmi region.\n    -length_taper: into the mmi region.\n    -length_mmi: in x direction.\n    -width_mmi: in y direction.\n    -gap_mmi: gap between tapered wg.",
+    "contract": {
+      "port_form": "2x2",
+      "node_labels": [
+        "passive",
+        "2x2"
+      ],
+      "spec": {
+        "Name": "mmi2x2",
+        "Description": "A multimode interferometer with two input and two output ports.",
+        "Bandwidth": "50 nm"
+      },
+      "args_doc": [],
+      "args_sig": {
+        "width": null,
+        "width_taper": 1.0,
+        "length_taper": 10.0,
+        "length_mmi": 5.5,
+        "width_mmi": 2.5,
+        "gap_mmi": 0.25,
+        "cross_section": "strip"
+      },
+      "ports_exposed": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "param_passthrough": {}
+    }
+  }
+]

@@ -1,0 +1,43 @@
+# AutoGDS Netlist r1
+
+.part n0_0 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n0_0.role mzi_2x2
+
+.part n0_1 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n0_1.role mzi_2x2
+
+.part n0_2 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n0_2.role mzi_2x2
+
+.part n1_0 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n1_0.role mzi_2x2
+
+.part n1_1 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n1_1.role mzi_2x2
+
+.part n1_2 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n1_2.role mzi_2x2
+
+.part n2_0 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n2_0.role mzi_2x2
+
+.part n2_1 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n2_1.role mzi_2x2
+
+.part n2_2 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n2_2.role mzi_2x2
+
+.net n0 n0_0.o3 n0_1.o1
+.net n1 n0_0.o4 n0_1.o2
+.net n2 n0_1.o3 n0_2.o1
+.net n3 n0_1.o4 n0_2.o2
+.net n4 n1_0.o3 n1_1.o1
+.net n5 n1_0.o4 n1_1.o2
+.net n6 n1_1.o3 n1_2.o1
+.net n7 n1_1.o4 n1_2.o2
+.net n8 n2_0.o3 n2_1.o1
+.net n9 n2_0.o4 n2_1.o2
+.net n10 n2_1.o3 n2_2.o1
+.net n11 n2_1.o4 n2_2.o2
+
+.end

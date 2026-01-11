@@ -1,0 +1,11 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0_0" [shape=box,label="n0_0\nphase_shifter"];
+  "n0_1" [shape=box,label="n0_1\nphase_shifter"];
+  "n0_2" [shape=box,label="n0_2\nphase_shifter"];
+  "n0_3" [shape=box,label="n0_3\nphase_shifter"];
+  "n0_4" [shape=box,label="n0_4\nphase_shifter"];
+  "n0_5" [shape=box,label="n0_5\nphase_shifter"];
+  "n0_6" [shape=box,label="n0_6\nphase_shifter"];
+  "n0_7" [shape=box,label="n0_7\nphase_shifter"];
+}

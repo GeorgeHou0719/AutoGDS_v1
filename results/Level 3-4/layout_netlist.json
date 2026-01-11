@@ -1,0 +1,95 @@
+{
+  "schema_rev": "r1",
+  "instances": [
+    {
+      "name": "n0_0",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_1",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_2",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_3",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n1_0",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      }
+    },
+    {
+      "name": "n1_1",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      }
+    },
+    {
+      "name": "n1_2",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      }
+    },
+    {
+      "name": "n1_3",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      }
+    }
+  ],
+  "links": [
+    {
+      "a": "n0_0",
+      "a_port": "o2",
+      "b": "n1_0",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0_1",
+      "a_port": "o2",
+      "b": "n1_1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0_2",
+      "a_port": "o2",
+      "b": "n1_2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0_3",
+      "a_port": "o2",
+      "b": "n1_3",
+      "b_port": "o1"
+    }
+  ],
+  "top_ports": {},
+  "layout_hint": "grid",
+  "issues": [
+    "port_map_issue:n1_0:missing_exposed_port_for_out0",
+    "port_map_issue:n1_1:missing_exposed_port_for_out0",
+    "port_map_issue:n1_2:missing_exposed_port_for_out0",
+    "port_map_issue:n1_3:missing_exposed_port_for_out0"
+  ]
+}

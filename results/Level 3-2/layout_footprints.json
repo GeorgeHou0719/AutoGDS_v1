@@ -1,0 +1,41 @@
+{
+  "schema_rev": "r1",
+  "footprints": [
+    {
+      "name": "n0",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n1_0",
+      "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+      "width_um": 435.6,
+      "height_um": 464.2,
+      "ports": [
+        "o1",
+        "o2"
+      ],
+      "issues": []
+    },
+    {
+      "name": "n1_1",
+      "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+      "width_um": 435.6,
+      "height_um": 464.2,
+      "ports": [
+        "o1",
+        "o2"
+      ],
+      "issues": []
+    }
+  ]
+}

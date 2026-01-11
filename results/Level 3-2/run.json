@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "A power splitter connected to two 1*1 MZIs with doped heaters each with a path difference 100 um. The two output ports of the splitter are the input ports of the two MZIs respectively.",
+  "out": "runs",
+  "non_interactive": false
+}

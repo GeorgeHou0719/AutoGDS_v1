@@ -1,0 +1,28 @@
+{
+  "schema_rev": "r1",
+  "title": "2x2 Heated MZI Connected to Grating Coupler (Port0->Port0)",
+  "summary": "Instantiate a 2x2 Mach–Zehnder Interferometer (MZI) with integrated heaters and a grating coupler, and connect MZI port 0 to grating coupler port 0.",
+  "blocks": [
+    {
+      "role": "2x2 MZI (with integrated heaters)",
+      "count": 1,
+      "notes": "2x2 Mach–Zehnder Interferometer including integrated thermo-optic heaters on one or both arms for phase tuning. Expose optical ports indexed at least 0..3 (per library convention). Electrical heater pads are part of this block."
+    },
+    {
+      "role": "Grating coupler",
+      "count": 1,
+      "notes": "Single grating coupler with one optical port (port 0). Orientation/tilt/polarization per PDK defaults unless otherwise specified."
+    }
+  ],
+  "wiring_notes": [
+    "Optical connection: MZI optical port 0 -> Grating coupler optical port 0.",
+    "All other MZI optical ports remain unconnected unless otherwise specified.",
+    "No separate heater blocks; heaters are integrated within the MZI block."
+  ],
+  "objective": {
+    "wl_um_min": null,
+    "wl_um_max": null,
+    "io_ports": null,
+    "target_behavior": null
+  }
+}

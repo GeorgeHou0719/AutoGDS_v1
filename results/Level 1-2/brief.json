@@ -1,0 +1,22 @@
+{
+  "schema_rev": "r1",
+  "title": "Four-channel WDM",
+  "summary": "A photonic wavelength-division multiplexer/demultiplexer supporting four wavelength channels on a single bus waveguide, with one common port and four channel ports.",
+  "blocks": [
+    {
+      "role": "4-channel WDM mux/demux (e.g., AWG or cascaded MZI lattice)",
+      "count": 1,
+      "notes": "Provide 1 common port and 4 wavelength-selective channel ports. Target equal channel spacing and low inter-channel crosstalk; implementation may be AWG-based or MZI-lattice-based as a single integrated block."
+    }
+  ],
+  "wiring_notes": [
+    "Expose ports as: COM (common) and CH1–CH4 (channel ports).",
+    "Define whether used as MUX (CH1–CH4 into COM) or DEMUX (COM into CH1–CH4); device should be reciprocal so either direction works."
+  ],
+  "objective": {
+    "wl_um_min": null,
+    "wl_um_max": null,
+    "io_ports": 5,
+    "target_behavior": "Multiplex/demultiplex four wavelength channels between one common waveguide port and four channel ports (4λ↔1)."
+  }
+}

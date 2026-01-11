@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "Connect a 2x2 MZI with heaters to a grating coupler. Port 1 to port 0.",
+  "out": "runs",
+  "non_interactive": false
+}

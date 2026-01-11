@@ -1,0 +1,194 @@
+[
+  {
+    "symbol": "mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "score": 1.0577251184834124,
+    "rationale": "This is a Mach-Zehnder interferometer (MZI) arm. --- Name: mzi_arm Description: This is a Mach-Zehnder interferometer (",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6577251184834123,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 31,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "score": 1.0382054309327038,
+    "rationale": "This is a waveguide crossing. --- Name: waveguide crossing Description: This is a ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6382054309327037,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 22,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "bend_euler:bend_euler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\bend_euler.py",
+    "score": 1.0001602136181575,
+    "rationale": "This is a bend (or generally arc shaped) waveguide, with an Euler curvature.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6001602136181575,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 25,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "score": 0.993103448275862,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.593103448275862,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 55,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "heater_doped_si_cband:heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_doped_si_cband.py",
+    "score": 0.9787306064880112,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5787306064880112,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 37,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+    "score": 0.976728307254623,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.576728307254623,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "heater_tin_cband:heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+    "score": 0.9744206008583691,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5744206008583691,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 32,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrm_1x1_pndiode:mrm_1x1_pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrm_1x1_pndiode.py",
+    "score": 0.9660832137733142,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5660832137733142,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 11,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband:mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "score": 0.9643881856540084,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5643881856540084,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 45,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_bezier_curve:_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "score": 0.9594871794871794,
+    "rationale": "This is a bezier curve. https://stackoverflow.com/questions/30277646/svg-convert-a",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5594871794871794,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "photodetector:photodetector",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\photodetector.py",
+    "score": 0.957922077922078,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5579220779220779,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 22,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_arm:mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "score": 0.9504845814977974,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5504845814977973,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 31,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

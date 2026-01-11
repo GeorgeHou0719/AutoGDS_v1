@@ -1,0 +1,6 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0" [shape=box,label="n0\nsplitter_1x2"];
+  "n1" [shape=box,label="n1\nring_resonator"];
+  "n0" -> "n1" [label="out0->in0"];
+}

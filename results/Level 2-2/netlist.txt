@@ -1,0 +1,13 @@
+# AutoGDS Netlist r1
+
+.part n0 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n0.role mzi_2x2
+
+.part n1 _gc
+.param n1.role grating_coupler
+
+.net n0 n0.o4 n1.o1
+.top in0 n0.in0
+.top out0 n1.out0
+
+.end

@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "Directional coupler with a 0.5um gap and 50um coupling length.",
+  "out": "runs",
+  "non_interactive": false
+}

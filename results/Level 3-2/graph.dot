@@ -1,0 +1,16 @@
+digraph AutoGDS {
+  rankdir="LR";
+  node [shape=box];
+  "n0" [label="n0\n_mmi1x2"];
+  "n1_0" [label="n1_0\nmzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband"];
+  "n1_1" [label="n1_1\nmzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband"];
+  "n0" -> "n1_0" [label="o2 -> o1"];
+  "n0" -> "n1_1" [label="o3 -> o1"];
+  node [shape=diamond];
+  "in0" [label="in0"];
+  "in0" -> "n0" [label="in0"];
+  "out0" [label="out0"];
+  "out0" -> "n1_0" [label="out0"];
+  "out1" [label="out1"];
+  "out1" -> "n1_1" [label="out0"];
+}

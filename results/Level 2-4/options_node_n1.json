@@ -1,0 +1,194 @@
+[
+  {
+    "symbol": "mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "score": 1.0780582524271844,
+    "rationale": "ter (MZI) arm. ports: 1x1 NodeLabels: - passive - 1x1 Bandwidth: 100 nm",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6280582524271845,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 10,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "bend_euler:bend_euler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\bend_euler.py",
+    "score": 1.0671742112482852,
+    "rationale": "This is a bend (or generally arc shaped) waveguide, with an Euler curvature.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6171742112482853,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 13,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_bezier_curve:_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "score": 1.0247368421052632,
+    "rationale": " curve. https://stackoverflow.com/questions/30277646/svg-convert-arcs-to-cubic-bezier",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5747368421052631,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+    "score": 1.0207759882869691,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5707759882869692,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 23,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "score": 1.0105925030229748,
+    "rationale": "guide crossing ports: 1x1 NodeLabels: - passive Bandwidth: 100 nm Args: -length: straight length (um)",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6105925030229746,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 11,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "score": 0.9679432624113475,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5679432624113475,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 25,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "heater_doped_si_cband:heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_doped_si_cband.py",
+    "score": 0.9641799709724238,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5641799709724238,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 21,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "crossing:crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "score": 0.961447963800905,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.561447963800905,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 11,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "pindiode_cband:pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pindiode_cband.py",
+    "score": 0.957037037037037,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.557037037037037,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 21,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "heater_tin_cband:heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+    "score": 0.9565832106038291,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5565832106038291,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 19,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "pndiode:pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pndiode.py",
+    "score": 0.955642965204236,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.555642965204236,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 27,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband:mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "score": 0.9552532561505065,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5552532561505065,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 22,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

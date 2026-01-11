@@ -1,0 +1,212 @@
+[
+  {
+    "node_id": "n0_0",
+    "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation. 8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed) An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access. Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π).",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0010854947166186,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5510854947166186,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 64,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "2",
+      "selected_index": 2
+    }
+  },
+  {
+    "node_id": "n0_1",
+    "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation. 8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed) An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access. Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π).",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0010854947166186,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5510854947166186,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 64,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_2",
+    "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation. 8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed) An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access. Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π).",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0010854947166186,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5510854947166186,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 64,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_3",
+    "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation. 8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed) An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access. Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π).",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0010854947166186,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5510854947166186,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 64,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_4",
+    "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation. 8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed) An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access. Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π).",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0010854947166186,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5510854947166186,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 64,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_5",
+    "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation. 8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed) An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access. Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π).",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0010854947166186,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5510854947166186,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 64,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_6",
+    "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation. 8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed) An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access. Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π).",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0010854947166186,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5510854947166186,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 64,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_7",
+    "role_raw": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation. 8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed) An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access. Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π).",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0010854947166186,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5510854947166186,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 64,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  }
+]

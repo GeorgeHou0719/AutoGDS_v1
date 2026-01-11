@@ -1,0 +1,29 @@
+{
+  "schema_rev": "r1",
+  "parts": [
+    {
+      "name": "n0",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    }
+  ],
+  "links": [],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n0",
+      "port": "out0"
+    }
+  }
+}

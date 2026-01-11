@@ -1,0 +1,84 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "power splitter (1×2)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive splitter Single optical input, two optical outputs. Split ratio not specified (default to 50/50 unless otherwise constrained). Splitter feeding two 1×1 MZIs with doped heaters Implement a 1×2 power splitter whose two outputs each feed the single input of a separate 1×1 Mach–Zehnder interferometer (MZI). Each 1×1 MZI includes integrated doped heaters and has 100 µm path-length difference between its arms. Optical input is split into two paths feeding two independent thermally tunable 1×1 MZIs (ΔL=100 µm) via integrated doped heaters; provide two separate optical outputs.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0304825538233109,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.530482553823311,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 49,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "",
+      "selected_index": 0
+    }
+  },
+  {
+    "node_id": "n1_0",
+    "role_raw": "MZI (1×1) with integrated doped heaters",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Each MZI is 1×1 (one optical input, one optical output). Include integrated doped heaters (no separate heater block). Arm path-length difference ΔL = 100 µm. Splitter feeding two 1×1 MZIs with doped heaters Implement a 1×2 power splitter whose two outputs each feed the single input of a separate 1×1 Mach–Zehnder interferometer (MZI). Each 1×1 MZI includes integrated doped heaters and has 100 µm path-length difference between its arms. Optical input is split into two paths feeding two independent thermally tunable 1×1 MZIs (ΔL=100 µm) via integrated doped heaters; provide two separate optical outputs.",
+    "selected": {
+      "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+      "score": 0.993103448275862,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.593103448275862,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 55,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "3",
+      "selected_index": 3
+    }
+  },
+  {
+    "node_id": "n1_1",
+    "role_raw": "MZI (1×1) with integrated doped heaters",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Each MZI is 1×1 (one optical input, one optical output). Include integrated doped heaters (no separate heater block). Arm path-length difference ΔL = 100 µm. Splitter feeding two 1×1 MZIs with doped heaters Implement a 1×2 power splitter whose two outputs each feed the single input of a separate 1×1 Mach–Zehnder interferometer (MZI). Each 1×1 MZI includes integrated doped heaters and has 100 µm path-length difference between its arms. Optical input is split into two paths feeding two independent thermally tunable 1×1 MZIs (ΔL=100 µm) via integrated doped heaters; provide two separate optical outputs.",
+    "selected": {
+      "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+      "score": 0.993103448275862,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.593103448275862,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 55,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "Microring resonator (ring + bus coupler) with integrated heater",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi coupler Single ring resonator side-coupled to a bus waveguide (directional coupler/evanescent coupling region). Include an integrated heater over/near the ring for thermo-optic tuning; heater details (material/stack, resistance target, contact pads, keepouts) to be specified by PDK. Provide optical ports on the bus waveguide (through and drop optional; if add-drop, include a second bus waveguide). Microring resonator with bus coupler and integrated heater Design a microring resonator coupled to a straight bus waveguide via an integrated directional coupler region, with an integrated heater for thermal tuning of the ring resonance. Thermally tunable microring resonance filter: light couples from bus into ring at resonance; heater shifts resonance wavelength via thermo-optic effect.",
+    "selected": {
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+      "score": 0.9568361581920904,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5568361581920904,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 34,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "5",
+      "selected_index": 5
+    }
+  }
+]

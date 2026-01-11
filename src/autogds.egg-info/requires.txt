@@ -1,0 +1,11 @@
+pydantic>=2.6
+pyyaml>=6.0
+rich>=13.7
+python-dotenv>=1.0
+openai>=1.0
+
+[layout]
+gdsfactory>=7.0
+sax>=0.12
+numpy>=1.24
+matplotlib>=3.7

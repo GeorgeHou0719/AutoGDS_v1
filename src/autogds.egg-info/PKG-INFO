@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: autogds
+Version: 0.1.0
+Summary: AutoGDS: natural language to photonic layout (v1).
+Requires-Python: >=3.10
+Requires-Dist: pydantic>=2.6
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: rich>=13.7
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: openai>=1.0
+Provides-Extra: layout
+Requires-Dist: gdsfactory>=7.0; extra == "layout"
+Requires-Dist: sax>=0.12; extra == "layout"
+Requires-Dist: numpy>=1.24; extra == "layout"
+Requires-Dist: matplotlib>=3.7; extra == "layout"

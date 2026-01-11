@@ -1,0 +1,24 @@
+{
+  "schema_rev": "r1",
+  "title": "8x Thermo-Optic Phase Shifter Array (Parallel, Y-Directed)",
+  "summary": "An array of eight low-loss, low-power thermo-optic phase shifters arranged in parallel along the y direction (i.e., repeated devices spaced in y). Each phase shifter is a single waveguide phase shifter with integrated heater and electrical access.",
+  "blocks": [
+    {
+      "role": "thermo-optic phase shifter (single-waveguide with integrated heater)",
+      "count": 8,
+      "notes": "Low-loss, low-power thermo-optic phase shifter. Devices are placed in an array with center-to-center pitch along +y. Optical path oriented parallel across the array (same propagation direction for all eight). Include integrated heater and electrical routing/pads within this block (do not break out heater as separate component). Specify target phase tuning range (e.g., ≥2π) and electrical constraints (max power/voltage/current) during implementation."
+    }
+  ],
+  "wiring_notes": [
+    "Arrange 8 identical phase shifters in parallel with repetition along the y-axis; use a uniform y-pitch to meet fabrication and electrical routing DRCs.",
+    "Provide one optical input and one optical output per phase shifter (total 16 optical ports) unless otherwise specified; align ports to enable easy edge/fiber-array coupling or on-chip routing.",
+    "Route heater electrical connections for each phase shifter to pads/bus lines without crossing optical waveguides where possible; maintain consistent pad placement (e.g., at one side of the array) for probing/packaging.",
+    "Minimize optical loss via adiabatic transitions into/out of the phase-shifter section; keep bends/routing outside the active heated region."
+  ],
+  "objective": {
+    "wl_um_min": null,
+    "wl_um_max": null,
+    "io_ports": 16,
+    "target_behavior": "Eight low-loss, low-power thermo-optic phase shifters in a y-direction parallel array; each provides controllable optical phase delay (target tuning range to be defined, commonly up to ≥2π)."
+  }
+}

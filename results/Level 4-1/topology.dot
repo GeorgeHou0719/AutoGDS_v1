@@ -1,0 +1,32 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0" [shape=box,label="n0\nsplitter_1x2"];
+  "n1" [shape=box,label="n1\nsplitter_1x2"];
+  "n2" [shape=box,label="n2\nsplitter_1x2"];
+  "n3" [shape=box,label="n3\nsplitter_1x2"];
+  "n4" [shape=box,label="n4\nsplitter_1x2"];
+  "n5" [shape=box,label="n5\nsplitter_1x2"];
+  "n6" [shape=box,label="n6\nsplitter_1x2"];
+  "n7" [shape=box,label="n7\nsplitter_1x2"];
+  "n8" [shape=box,label="n8\nsplitter_1x2"];
+  "n9" [shape=box,label="n9\nsplitter_1x2"];
+  "n10" [shape=box,label="n10\nsplitter_1x2"];
+  "n11" [shape=box,label="n11\nsplitter_1x2"];
+  "n12" [shape=box,label="n12\nsplitter_1x2"];
+  "n13" [shape=box,label="n13\nsplitter_1x2"];
+  "n14" [shape=box,label="n14\nsplitter_1x2"];
+  "n0" -> "n1" [label="out0->in0"];
+  "n0" -> "n2" [label="out1->in0"];
+  "n1" -> "n3" [label="out0->in0"];
+  "n1" -> "n4" [label="out1->in0"];
+  "n2" -> "n5" [label="out0->in0"];
+  "n2" -> "n6" [label="out1->in0"];
+  "n3" -> "n7" [label="out0->in0"];
+  "n3" -> "n8" [label="out1->in0"];
+  "n4" -> "n9" [label="out0->in0"];
+  "n4" -> "n10" [label="out1->in0"];
+  "n5" -> "n11" [label="out0->in0"];
+  "n5" -> "n12" [label="out1->in0"];
+  "n6" -> "n13" [label="out0->in0"];
+  "n6" -> "n14" [label="out1->in0"];
+}

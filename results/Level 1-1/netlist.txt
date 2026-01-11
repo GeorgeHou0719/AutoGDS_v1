@@ -1,0 +1,11 @@
+# AutoGDS Netlist r1
+
+.part n0 mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband
+.param n0.role mzi_2x2
+
+.top in0 n0.in0
+.top out0 n0.out0
+.top in1 n0.in1
+.top out1 n0.out1
+
+.end

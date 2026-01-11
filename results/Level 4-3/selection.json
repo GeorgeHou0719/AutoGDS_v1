@@ -1,0 +1,420 @@
+[
+  {
+    "node_id": "n0_0",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "",
+      "selected_index": 0
+    }
+  },
+  {
+    "node_id": "n0_1",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_2",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_3",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_0",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_1",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_2",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_3",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2_0",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2_1",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2_2",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2_3",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n3_0",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n3_1",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n3_2",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n3_3",
+    "role_raw": "thermo-optic phase shifter",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Mesh/array node; connect adjacent nodes back-to-back if specified. 4x4 Thermo-Optic Phase Shifter Mesh (16 elements) Implement a 4x4 mesh containing sixteen thermo-optic phase shifter elements arranged in a 4-by-4 layout, with electrical control for each phase shifter. A 4x4 optical mesh network using 16 independently tunable thermo-optic phase shifters (one per mesh element) for programmable phase control across the mesh.",
+    "selected": {
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+      "score": 1.0385271317829456,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5885271317829457,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 29,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  }
+]

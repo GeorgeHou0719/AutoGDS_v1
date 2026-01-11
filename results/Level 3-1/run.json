@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "Layout 1x2 MMIs connected to each other to for a 1x8 splitter tree.",
+  "out": "runs",
+  "non_interactive": false
+}

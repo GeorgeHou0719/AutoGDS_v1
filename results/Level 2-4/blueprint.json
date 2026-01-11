@@ -1,0 +1,50 @@
+{
+  "schema_rev": "r1",
+  "parts": [
+    {
+      "name": "n0",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "params": {
+        "role": "ring_resonator"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    }
+  ],
+  "links": [
+    {
+      "a": "n0",
+      "a_port": "o2",
+      "b": "n1",
+      "b_port": "o1"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n1",
+      "port": "out0"
+    }
+  }
+}

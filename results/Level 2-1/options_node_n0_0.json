@@ -1,0 +1,194 @@
+[
+  {
+    "symbol": "coupler_ring:coupler_ring",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\coupler_ring.py",
+    "score": 1.0421718377088305,
+    "rationale": "This is a directional coupler with an Euler curvature. Typically used to design ring resonator",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5921718377088305,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 25,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+    "score": 0.9926760563380281,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5926760563380281,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 55,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "coupler_ring",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\coupler_ring.py",
+    "score": 0.9892216582064297,
+    "rationale": " used to design ring resonators. ports: 2x2 NodeLabels: - passive - 2x2 Bandwidth: 100 nm Args: -gap: spacing between pa",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5392216582064298,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 25,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_2x2:mrr_2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_2x2.py",
+    "score": 0.9808701472556893,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5308701472556894,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 19,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pindiode_cband:mzi_2x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pindiode_cband.py",
+    "score": 0.9726640926640927,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5726640926640927,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 52,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_2x2.py",
+    "score": 0.9713650465356773,
+    "rationale": "double bus Micro-ring Resonator. ports: 2x2 NodeLabels: - passive - 2x2 Bandwidth: 50 nm Args: -radius: for the bend and",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5213650465356774,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 19,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pn_diode:mzi_2x2_pn_diode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pn_diode.py",
+    "score": 0.9688888888888889,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5688888888888889,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 45,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_mmi2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi2x2.py",
+    "score": 0.9661544782251438,
+    "rationale": "nput and two output ports. --- Name: mmi2x2 Description: A multimode interferometer with two input and two output ports.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5161544782251438,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 35,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mode_converter:mode_converter",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mode_converter.py",
+    "score": 0.9483311432325887,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5483311432325887,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 17,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pindiode_cband.py",
+    "score": 0.9327027027027027,
+    "rationale": "s is a 2x2 Mach-Zehnder interferometer (MZI). --- Name: MZI 2x2 - PIN Diode Description: > This is a 2x2 Mach-Zehnder in",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5327027027027027,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 52,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pn_diode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pn_diode.py",
+    "score": 0.9210677618069815,
+    "rationale": "s is a 2x2 Mach-Zehnder Interferometer (MZI) with a pn diode. --- Name: MZI 2x2 PN Diode Description: > This is a pn dio",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5210677618069814,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 45,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+    "score": 0.9163864491844417,
+    "rationale": "s is a 2x2 Mach-Zehnder interferometer (MZI). --- Name: MZI 2x2 - Thermo-optic Description: > This is a 2x2 Mach-Zehnder",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5163864491844417,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 55,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    "alignment:alignment_skipped_no_orientation:n0_0",
+    "alignment:alignment_skipped_no_orientation:n0_1",
+    "alignment:alignment_skipped_no_orientation:n0_2",
+    "alignment:alignment_skipped_no_orientation:n0_3",
+    "alignment:alignment_skipped_no_orientation:n0_4",
+    "alignment:alignment_skipped_no_orientation:n0_5",
+    "alignment:alignment_skipped_no_orientation:n0_6",
+    "alignment:alignment_skipped_no_orientation:n0_7"
+  ]
+}

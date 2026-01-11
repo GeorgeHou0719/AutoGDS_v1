@@ -1,0 +1,22 @@
+{
+  "schema_rev": "r1",
+  "ok": true,
+  "issues": [
+    {
+      "severity": "warn",
+      "code": "PARAM_ISSUE",
+      "message": "param_not_in_args_sig:use",
+      "data": {
+        "part": "n0_0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "PARAM_ISSUE",
+      "message": "param_not_in_args_sig:use",
+      "data": {
+        "part": "n0_1"
+      }
+    }
+  ]
+}

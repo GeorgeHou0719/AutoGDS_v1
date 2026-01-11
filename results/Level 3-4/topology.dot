@@ -1,0 +1,15 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0_0" [shape=box,label="n0_0\nphase_shifter"];
+  "n0_1" [shape=box,label="n0_1\nphase_shifter"];
+  "n0_2" [shape=box,label="n0_2\nphase_shifter"];
+  "n0_3" [shape=box,label="n0_3\nphase_shifter"];
+  "n1_0" [shape=box,label="n1_0\ngrating_coupler"];
+  "n1_1" [shape=box,label="n1_1\ngrating_coupler"];
+  "n1_2" [shape=box,label="n1_2\ngrating_coupler"];
+  "n1_3" [shape=box,label="n1_3\ngrating_coupler"];
+  "n0_0" -> "n1_0" [label="out0->in0"];
+  "n0_1" -> "n1_1" [label="out0->in0"];
+  "n0_2" -> "n1_2" [label="out0->in0"];
+  "n0_3" -> "n1_3" [label="out0->in0"];
+}

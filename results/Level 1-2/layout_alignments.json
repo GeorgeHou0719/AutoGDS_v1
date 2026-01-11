@@ -1,0 +1,18 @@
+{
+  "schema_rev": "r1",
+  "placements": [
+    {
+      "name": "n0",
+      "symbol": "wdm_mzi1x4:wdm_mzi1x4",
+      "x_um": 0.0,
+      "y_um": -10.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    }
+  ],
+  "issues": [
+    "alignment_skipped_no_orientation:n0"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "A 1x8 splitter tree using 1x2 MMIs, and connect each output to a grating coupler.",
+  "out": "runs",
+  "non_interactive": false
+}

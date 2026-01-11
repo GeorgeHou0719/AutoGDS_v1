@@ -1,0 +1,26 @@
+{"ts_ms": 1768032837455, "area": "cli", "event": "start", "note": "run started", "artifacts": {}, "extra": {"request": "A 1x16 splitter tree built from 1x2 MMIs."}}
+{"ts_ms": 1768032837456, "area": "run", "event": "saved", "note": "", "artifacts": {"run": "runs\\20260110_001357_0ef4fb\\run.json"}, "extra": {}}
+{"ts_ms": 1768032848538, "area": "brief", "event": "parsed", "note": "", "artifacts": {"brief": "runs\\20260110_001357_0ef4fb\\brief.json", "raw_text": "runs\\20260110_001357_0ef4fb\\raw\\brief_llm.txt"}, "extra": {"model": "gpt-5.2"}}
+{"ts_ms": 1768032848681, "area": "catalog", "event": "scanned", "note": "", "artifacts": {}, "extra": {"root": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary", "count": 62, "ms": 141}}
+{"ts_ms": 1768032848683, "area": "catalog", "event": "filtered", "note": "", "artifacts": {}, "extra": {"components_only": false, "count_kept": 62, "count_raw": 62}}
+{"ts_ms": 1768032848686, "area": "catalog", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\catalog\\index.json"}, "extra": {}}
+{"ts_ms": 1768032848687, "area": "wiring", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\wiring_plan.json"}, "extra": {"count": 0}}
+{"ts_ms": 1768032848688, "area": "topology", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\topology_plan.json", "nodes": 15, "intents": 14}, "extra": {}}
+{"ts_ms": 1768032848689, "area": "topology", "event": "dot_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\topology.dot"}, "extra": {}}
+{"ts_ms": 1768032848694, "area": "retrieval", "event": "ranked", "note": "", "artifacts": {}, "extra": {"query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.", "k": 5, "ms": 4, "node": "n0"}}
+{"ts_ms": 1768032848695, "area": "options", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\options_node_n0.json"}, "extra": {"node": "n0", "role": "1x2 MMI splitter (tree)"}}
+{"ts_ms": 1768032851141, "area": "selection", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\selection.json", "count": 15}, "extra": {}}
+{"ts_ms": 1768032851144, "area": "blueprint", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\blueprint.json", "parts": 15, "links": 14}, "extra": {}}
+{"ts_ms": 1768032851145, "area": "graph", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\graph.dot"}, "extra": {}}
+{"ts_ms": 1768032851146, "area": "netlist", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\netlist.txt"}, "extra": {}}
+{"ts_ms": 1768032851148, "area": "verify", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\verify_report.json", "ok": true, "issues": 0}, "extra": {}}
+{"ts_ms": 1768032851150, "area": "layout", "event": "netlist_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\layout_netlist.json"}, "extra": {"issues": 0}}
+{"ts_ms": 1768032851151, "area": "layout", "event": "footprints_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\layout_footprints.json"}, "extra": {"count": 15}}
+{"ts_ms": 1768032851153, "area": "layout", "event": "placements_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\layout_placements.json"}, "extra": {"count": 15}}
+{"ts_ms": 1768032851155, "area": "layout", "event": "alignments_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\layout_alignments.json"}, "extra": {"issues": 15}}
+{"ts_ms": 1768032851157, "area": "layout", "event": "routes_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\layout_routes.json"}, "extra": {"count": 14, "issues": 0}}
+{"ts_ms": 1768032851158, "area": "layout", "event": "precheck_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\layout_precheck.json"}, "extra": {"issues": 0, "overlaps": 0}}
+{"ts_ms": 1768032854648, "area": "layout", "event": "emit_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\layout_emit.json", "gds": "runs\\20260110_001357_0ef4fb\\layout.gds"}, "extra": {"issues": 0}}
+{"ts_ms": 1768032854649, "area": "layout", "event": "report_saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\layout_report.json", "ok": false, "issues": 30}, "extra": {}}
+{"ts_ms": 1768032854650, "area": "manifest", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_001357_0ef4fb\\artifacts.json"}, "extra": {}}
+{"ts_ms": 1768032854668, "area": "cli", "event": "end", "note": "workspace initialized", "artifacts": {"workspace": "runs\\20260110_001357_0ef4fb"}, "extra": {}}

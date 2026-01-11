@@ -1,0 +1,194 @@
+[
+  {
+    "symbol": "mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "score": 1.0165935919055649,
+    "rationale": "This is a Mach-Zehnder interferometer (MZI) arm. --- Name: mzi_arm Description: This is a Mach-Zehnder ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.616593591905565,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 16,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "heater_doped_si_cband:heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_doped_si_cband.py",
+    "score": 1.0023120837297812,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5523120837297811,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 63,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "heater_tin_cband:heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+    "score": 1.0010854947166186,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5510854947166186,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 64,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "pindiode_cband:pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pindiode_cband.py",
+    "score": 0.9878592092574734,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5378592092574734,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 47,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "score": 0.9775609756097561,
+    "rationale": "This is a waveguide crossing. --- Name: waveguide crossing Description: This is a waveguide crossing port",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.577560975609756,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_bezier_curve:_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "score": 0.9709090909090909,
+    "rationale": "is is a bezier curve. https://stackoverflow.com/questions/30277646/svg-convert-arcs-to-cubic-bezier",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5709090909090909,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 30,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "bend_euler:bend_euler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\bend_euler.py",
+    "score": 0.9643263061411549,
+    "rationale": "r generally arc shaped) waveguide, with an Euler curvature.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5643263061411549,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 23,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "score": 0.9531021555763823,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5531021555763823,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 62,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+    "score": 0.9508133971291867,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5508133971291866,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 27,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband:mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "score": 0.9350807217473884,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5350807217473884,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 52,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "straight:straight",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\straight.py",
+    "score": 0.9326829268292683,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5326829268292683,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 22,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "photodetector:photodetector",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\photodetector.py",
+    "score": 0.9302415458937198,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5302415458937197,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 17,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

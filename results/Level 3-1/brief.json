@@ -1,0 +1,27 @@
+{
+  "schema_rev": "r1",
+  "title": "1x8 Splitter Tree Using Cascaded 1x2 MMIs",
+  "summary": "Create a 1x8 optical power splitter tree by cascading 1x2 MMI splitters in a binary tree topology, using seven 1x2 MMIs total.",
+  "blocks": [
+    {
+      "role": "1x2 MMI splitter",
+      "count": 7,
+      "notes": "Binary tree: Stage 1 uses 1 MMI to split 1 input into 2; Stage 2 uses 2 MMIs to split into 4; Stage 3 uses 4 MMIs to split into 8. Target ~50/50 split per MMI at design wavelength. Include standard single-mode input/output tapers as part of the MMI cell if available in the PDK."
+    }
+  ],
+  "wiring_notes": [
+    "Connect the single input waveguide to the input of the Stage-1 1x2 MMI.",
+    "Route the two outputs of Stage-1 MMI to the inputs of the two Stage-2 MMIs (one output per MMI).",
+    "Route the four outputs of Stage-2 MMIs to the inputs of the four Stage-3 MMIs (one output per MMI).",
+    "Expose the eight outputs of Stage-3 MMIs as the final 1x8 splitter outputs (8 separate output ports).",
+    "Use symmetric routing and matched path lengths within each stage (and ideally across all 8 output paths) to balance phase and minimize skew; add serpentine sections only if needed for length matching.",
+    "Maintain minimum bend radius and waveguide spacing per process rules; avoid crossings if possible or use crossing cells if required by floorplan.",
+    "Keep output port pitch and orientation consistent with downstream connectivity / fiber array requirements (if unspecified, choose a standard pitch from the PDK)."
+  ],
+  "objective": {
+    "wl_um_min": null,
+    "wl_um_max": null,
+    "io_ports": 9,
+    "target_behavior": "1 optical input evenly split into 8 outputs using a 3-stage binary tree of 1x2 MMI splitters (nominally equal power to each output)."
+  }
+}

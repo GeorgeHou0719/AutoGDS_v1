@@ -1,0 +1,82 @@
+[
+  {
+    "symbol": "polarization_splitter_rotator:polarization_splitter_rotator",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\polarization_splitter_rotator.py",
+    "score": 1.0524489795918366,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6024489795918367,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_mmi1x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+    "score": 1.0341012216404888,
+    "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5341012216404887,
+        "port_form_match": 0.3,
+        "label_hits": 2,
+        "label_bonus": 0.1,
+        "spec_hits": 31,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x2_pindiode_cband:mzi_1x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x2_pindiode_cband.py",
+    "score": 0.9980952380952381,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5980952380952381,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 20,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "polarization_splitter_rotator",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\polarization_splitter_rotator.py",
+    "score": 0.9467464114832536,
+    "rationale": "This is a polarization splitter rotator used (1) separate TE and TM polarized light. --- Name: Polariza",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.49674641148325355,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x2_pindiode_cband.py",
+    "score": 0.9184615384615384,
+    "rationale": "B Extinction ratio: 25 dB Drive voltage/power: 2 mW Footprint Estimate: 428um x 512um Args: -length: straight length hea",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5184615384615384,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 20,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

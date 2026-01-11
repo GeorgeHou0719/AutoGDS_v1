@@ -1,0 +1,26 @@
+{
+  "schema_rev": "r1",
+  "title": "3x3 mesh of 2x2 MZI nodes with back-to-back adjacent connections",
+  "summary": "Implement a 3x3 2D mesh network composed of nine 2x2 Mach–Zehnder interferometer (MZI) nodes. Adjacent nodes in the grid are connected back-to-back (nearest-neighbor interconnects) horizontally and vertically.",
+  "blocks": [
+    {
+      "role": "2x2 MZI (tunable) node",
+      "count": 9,
+      "notes": "Each node is an integrated 2x2 MZI (e.g., two 2x2 couplers with internal phase shifter(s); heaters/phase tuning integrated in the MZI as needed). Arranged in a 3x3 grid. Exposes 4 ports per node (nominally W/E/N/S) for mesh interconnect. Coupler type (MMI or directional coupler), splitting ratio, and tuning method not specified."
+    }
+  ],
+  "wiring_notes": [
+    "Place 9 MZI nodes in a 3x3 grid with consistent port orientation (define for each node: North, South, East, West).",
+    "Back-to-back connect adjacent nodes: for every horizontal neighbor pair, connect East port of left node to West port of right node; for every vertical neighbor pair, connect South port of upper node to North port of lower node.",
+    "No diagonal connections.",
+    "External I/O ports are the unconnected boundary ports on the perimeter of the 3x3 grid (unless otherwise terminated): top edge North ports (3), bottom edge South ports (3), left edge West ports (3), right edge East ports (3) for a total of 12 boundary ports.",
+    "Internal connections count: 6 horizontal + 6 vertical = 12 adjacent links total.",
+    "Waveguide routing style, bend radius, crossings, and terminations for unused ports are not specified."
+  ],
+  "objective": {
+    "wl_um_min": null,
+    "wl_um_max": null,
+    "io_ports": 12,
+    "target_behavior": "Configurable 3x3 nearest-neighbor photonic mesh using 2x2 tunable MZI nodes; adjacent nodes connected back-to-back horizontally and vertically."
+  }
+}

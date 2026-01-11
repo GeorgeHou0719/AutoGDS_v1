@@ -1,0 +1,24 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0_0" [shape=box,label="n0_0\nmzi_2x2"];
+  "n0_1" [shape=box,label="n0_1\nmzi_2x2"];
+  "n0_2" [shape=box,label="n0_2\nmzi_2x2"];
+  "n1_0" [shape=box,label="n1_0\nmzi_2x2"];
+  "n1_1" [shape=box,label="n1_1\nmzi_2x2"];
+  "n1_2" [shape=box,label="n1_2\nmzi_2x2"];
+  "n2_0" [shape=box,label="n2_0\nmzi_2x2"];
+  "n2_1" [shape=box,label="n2_1\nmzi_2x2"];
+  "n2_2" [shape=box,label="n2_2\nmzi_2x2"];
+  "n0_0" -> "n0_1" [label="out0->in0"];
+  "n0_0" -> "n0_1" [label="out1->in1"];
+  "n0_1" -> "n0_2" [label="out0->in0"];
+  "n0_1" -> "n0_2" [label="out1->in1"];
+  "n1_0" -> "n1_1" [label="out0->in0"];
+  "n1_0" -> "n1_1" [label="out1->in1"];
+  "n1_1" -> "n1_2" [label="out0->in0"];
+  "n1_1" -> "n1_2" [label="out1->in1"];
+  "n2_0" -> "n2_1" [label="out0->in0"];
+  "n2_0" -> "n2_1" [label="out1->in1"];
+  "n2_1" -> "n2_2" [label="out0->in0"];
+  "n2_1" -> "n2_2" [label="out1->in1"];
+}

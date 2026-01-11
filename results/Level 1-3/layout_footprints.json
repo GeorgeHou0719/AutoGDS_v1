@@ -1,0 +1,20 @@
+{
+  "schema_rev": "r1",
+  "footprints": [
+    {
+      "name": "n0",
+      "symbol": "_directional_coupler",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    }
+  ]
+}

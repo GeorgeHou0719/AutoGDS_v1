@@ -1,0 +1,6 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0" [shape=box,label="n0\nmzi_2x2"];
+  "n1" [shape=box,label="n1\ngrating_coupler"];
+  "n0" -> "n1" [label="out1->in0"];
+}

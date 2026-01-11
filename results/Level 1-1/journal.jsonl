@@ -1,0 +1,26 @@
+{"ts_ms": 1768032151035, "area": "cli", "event": "start", "note": "run started", "artifacts": {}, "extra": {"request": "A 2x2 MZI."}}
+{"ts_ms": 1768032151037, "area": "run", "event": "saved", "note": "", "artifacts": {"run": "runs\\20260110_000231_71739a\\run.json"}, "extra": {}}
+{"ts_ms": 1768032159397, "area": "brief", "event": "parsed", "note": "", "artifacts": {"brief": "runs\\20260110_000231_71739a\\brief.json", "raw_text": "runs\\20260110_000231_71739a\\raw\\brief_llm.txt"}, "extra": {"model": "gpt-5.2"}}
+{"ts_ms": 1768032159589, "area": "catalog", "event": "scanned", "note": "", "artifacts": {}, "extra": {"root": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary", "count": 62, "ms": 191}}
+{"ts_ms": 1768032159591, "area": "catalog", "event": "filtered", "note": "", "artifacts": {}, "extra": {"components_only": false, "count_kept": 62, "count_raw": 62}}
+{"ts_ms": 1768032159595, "area": "catalog", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\catalog\\index.json"}, "extra": {}}
+{"ts_ms": 1768032159596, "area": "wiring", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\wiring_plan.json"}, "extra": {"count": 0}}
+{"ts_ms": 1768032159598, "area": "topology", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\topology_plan.json", "nodes": 1, "intents": 0}, "extra": {}}
+{"ts_ms": 1768032159599, "area": "topology", "event": "dot_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\topology.dot"}, "extra": {}}
+{"ts_ms": 1768032159612, "area": "retrieval", "event": "ranked", "note": "", "artifacts": {}, "extra": {"query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer coupler Use two 2x2 couplers (typically 50:50) forming an MZI with two internal arms. Phase control not specified (no heater/modulator unless added later). Expose 2 optical input ports and 2 optical output ports. 2x2 Mach–Zehnder Interferometer (MZI) Implement a 2x2 MZI using two 2x2 couplers connected by two interferometer arms, providing 2 inputs and 2 outputs with interference-dependent transfer between outputs. 2x2 MZI: interference-based 2x2 transfer matrix determined by relative phase between arms (bar/cross behavior tunable if phase shift is provided; otherwise fixed by path length difference).", "k": 12, "ms": 12, "node": "n0"}}
+{"ts_ms": 1768032159613, "area": "options", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\options_node_n0.json"}, "extra": {"node": "n0", "role": "2x2 MZI (integrated: input coupler + two arms + output coupler)"}}
+{"ts_ms": 1768032163272, "area": "selection", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\selection.json", "count": 1}, "extra": {}}
+{"ts_ms": 1768032163274, "area": "blueprint", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\blueprint.json", "parts": 1, "links": 0}, "extra": {}}
+{"ts_ms": 1768032163275, "area": "graph", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\graph.dot"}, "extra": {}}
+{"ts_ms": 1768032163277, "area": "netlist", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\netlist.txt"}, "extra": {}}
+{"ts_ms": 1768032163278, "area": "verify", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\verify_report.json", "ok": true, "issues": 0}, "extra": {}}
+{"ts_ms": 1768032163279, "area": "layout", "event": "netlist_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\layout_netlist.json"}, "extra": {"issues": 0}}
+{"ts_ms": 1768032163280, "area": "layout", "event": "footprints_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\layout_footprints.json"}, "extra": {"count": 1}}
+{"ts_ms": 1768032163281, "area": "layout", "event": "placements_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\layout_placements.json"}, "extra": {"count": 1}}
+{"ts_ms": 1768032163283, "area": "layout", "event": "alignments_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\layout_alignments.json"}, "extra": {"issues": 1}}
+{"ts_ms": 1768032163284, "area": "layout", "event": "routes_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\layout_routes.json"}, "extra": {"count": 0, "issues": 0}}
+{"ts_ms": 1768032163285, "area": "layout", "event": "precheck_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\layout_precheck.json"}, "extra": {"issues": 0, "overlaps": 0}}
+{"ts_ms": 1768032168749, "area": "layout", "event": "emit_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\layout_emit.json", "gds": "runs\\20260110_000231_71739a\\layout.gds"}, "extra": {"issues": 0}}
+{"ts_ms": 1768032168751, "area": "layout", "event": "report_saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\layout_report.json", "ok": false, "issues": 1}, "extra": {}}
+{"ts_ms": 1768032168752, "area": "manifest", "event": "saved", "note": "", "artifacts": {"path": "runs\\20260110_000231_71739a\\artifacts.json"}, "extra": {}}
+{"ts_ms": 1768032168898, "area": "cli", "event": "end", "note": "workspace initialized", "artifacts": {"workspace": "runs\\20260110_000231_71739a"}, "extra": {}}

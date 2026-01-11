@@ -1,0 +1,19 @@
+{
+  "schema_rev": "r1",
+  "title": "Directional Coupler (0.5 µm gap, 50 µm coupling length)",
+  "summary": "Implement a 2x2 directional coupler with specified waveguide gap and coupling section length.",
+  "blocks": [
+    {
+      "role": "directional coupler",
+      "count": 1,
+      "notes": "2x2 directional coupler. Coupling gap = 0.5 µm. Straight coupling length = 50 µm. Waveguide cross-section, bend radii, and access waveguide geometry not specified."
+    }
+  ],
+  "wiring_notes": [],
+  "objective": {
+    "wl_um_min": null,
+    "wl_um_max": null,
+    "io_ports": 4,
+    "target_behavior": null
+  }
+}

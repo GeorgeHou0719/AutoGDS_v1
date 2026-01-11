@@ -1,0 +1,32 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0" [shape=box,label="n0\nsplitter_1x2"];
+  "n1" [shape=box,label="n1\nsplitter_1x2"];
+  "n2" [shape=box,label="n2\nsplitter_1x2"];
+  "n3" [shape=box,label="n3\nsplitter_1x2"];
+  "n4" [shape=box,label="n4\nsplitter_1x2"];
+  "n5" [shape=box,label="n5\nsplitter_1x2"];
+  "n6" [shape=box,label="n6\nsplitter_1x2"];
+  "gc0" [shape=box,label="gc0\ngrating_coupler"];
+  "gc1" [shape=box,label="gc1\ngrating_coupler"];
+  "gc2" [shape=box,label="gc2\ngrating_coupler"];
+  "gc3" [shape=box,label="gc3\ngrating_coupler"];
+  "gc4" [shape=box,label="gc4\ngrating_coupler"];
+  "gc5" [shape=box,label="gc5\ngrating_coupler"];
+  "gc6" [shape=box,label="gc6\ngrating_coupler"];
+  "gc7" [shape=box,label="gc7\ngrating_coupler"];
+  "n0" -> "n1" [label="out0->in0"];
+  "n0" -> "n2" [label="out1->in0"];
+  "n1" -> "n3" [label="out0->in0"];
+  "n1" -> "n4" [label="out1->in0"];
+  "n2" -> "n5" [label="out0->in0"];
+  "n2" -> "n6" [label="out1->in0"];
+  "n3" -> "gc0" [label="out0->in0"];
+  "n3" -> "gc1" [label="out1->in0"];
+  "n4" -> "gc2" [label="out0->in0"];
+  "n4" -> "gc3" [label="out1->in0"];
+  "n5" -> "gc4" [label="out0->in0"];
+  "n5" -> "gc5" [label="out1->in0"];
+  "n6" -> "gc6" [label="out0->in0"];
+  "n6" -> "gc7" [label="out1->in0"];
+}

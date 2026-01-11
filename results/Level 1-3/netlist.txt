@@ -1,0 +1,13 @@
+# AutoGDS Netlist r1
+
+.part n0 _directional_coupler
+.param n0.role generic_block
+.param n0.gap 0.5
+.param n0.length 50.0
+
+.top in0 n0.in0
+.top out0 n0.out0
+.top in1 n0.in1
+.top out1 n0.out1
+
+.end

@@ -1,0 +1,166 @@
+{
+  "schema_rev": "r1",
+  "placements": [
+    {
+      "name": "n0_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 0.0,
+      "y_um": 510.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n0_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 437.0,
+      "y_um": 510.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n0_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 874.0,
+      "y_um": 510.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n0_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 1311.0,
+      "y_um": 510.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n1_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 0.0,
+      "y_um": 340.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n1_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 437.0,
+      "y_um": 340.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n1_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 874.0,
+      "y_um": 340.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n1_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 1311.0,
+      "y_um": 340.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n2_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 0.0,
+      "y_um": 170.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n2_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 437.0,
+      "y_um": 170.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n2_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 874.0,
+      "y_um": 170.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n2_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 1311.0,
+      "y_um": 170.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n3_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 0.0,
+      "y_um": 0.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n3_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 437.0,
+      "y_um": 0.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n3_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 874.0,
+      "y_um": 0.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    },
+    {
+      "name": "n3_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "x_um": 1311.0,
+      "y_um": 0.0,
+      "rotation_deg": 0.0,
+      "width_um": 397.0,
+      "height_um": 130.0,
+      "issues": []
+    }
+  ],
+  "issues": []
+}

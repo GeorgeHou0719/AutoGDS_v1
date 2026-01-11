@@ -1,0 +1,32 @@
+{
+  "schema_rev": "r1",
+  "footprints": [
+    {
+      "name": "n0",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n1",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    }
+  ]
+}

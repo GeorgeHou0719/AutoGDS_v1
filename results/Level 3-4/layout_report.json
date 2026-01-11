@@ -1,0 +1,26 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    "port_map_issue:n1_0:missing_exposed_port_for_out0",
+    "port_map_issue:n1_1:missing_exposed_port_for_out0",
+    "port_map_issue:n1_2:missing_exposed_port_for_out0",
+    "port_map_issue:n1_3:missing_exposed_port_for_out0",
+    "footprint:n0_0:placeholder_size",
+    "footprint:n0_1:placeholder_size",
+    "footprint:n0_2:placeholder_size",
+    "footprint:n0_3:placeholder_size",
+    "footprint:n1_0:placeholder_size",
+    "footprint:n1_1:placeholder_size",
+    "footprint:n1_2:placeholder_size",
+    "footprint:n1_3:placeholder_size",
+    "alignment:alignment_skipped_no_orientation:n0_0",
+    "alignment:alignment_skipped_no_orientation:n1_0",
+    "alignment:alignment_skipped_no_orientation:n0_1",
+    "alignment:alignment_skipped_no_orientation:n1_1",
+    "alignment:alignment_skipped_no_orientation:n0_2",
+    "alignment:alignment_skipped_no_orientation:n1_2",
+    "alignment:alignment_skipped_no_orientation:n0_3",
+    "alignment:alignment_skipped_no_orientation:n1_3"
+  ]
+}

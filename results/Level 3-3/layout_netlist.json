@@ -1,0 +1,65 @@
+{
+  "schema_rev": "r1",
+  "instances": [
+    {
+      "name": "n0_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_4",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_5",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_6",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      }
+    },
+    {
+      "name": "n0_7",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      }
+    }
+  ],
+  "links": [],
+  "top_ports": {},
+  "layout_hint": "y_array",
+  "issues": []
+}

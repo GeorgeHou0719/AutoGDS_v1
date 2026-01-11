@@ -1,0 +1,58 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "1x2 optical splitter",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive splitter Standard 1x2 splitter (e.g., Y-branch or 1x2 MMI). One input port, two output ports. 1x2 Splitter Feeding 1x1 Microring Resonator Photonic circuit where the output of a 1x2 splitter is connected to the input (bus) of a 1x1 microring resonator; the second splitter output is left available as a tap/through path. Split incoming light into two paths; one path passes through a single-bus microring resonator (spectrally selective through response), while the other path remains as a direct reference/tap output.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0187897595034912,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.518789759503491,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 47,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "1",
+      "selected_index": 1
+    }
+  },
+  {
+    "node_id": "n1",
+    "role_raw": "1x1 microring resonator",
+    "role_canonical": "ring_resonator",
+    "role_variant": "",
+    "query": "ring_resonator ring mrr resonator coupler radius Single-bus (all-pass) microring resonator with one input and one output on the bus waveguide (no drop port). Coupling gap/length and ring radius unspecified. 1x2 Splitter Feeding 1x1 Microring Resonator Photonic circuit where the output of a 1x2 splitter is connected to the input (bus) of a 1x1 microring resonator; the second splitter output is left available as a tap/through path. Split incoming light into two paths; one path passes through a single-bus microring resonator (spectrally selective through response), while the other path remains as a direct reference/tap output.",
+    "selected": {
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+      "score": 1.0207759882869691,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5707759882869692,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 23,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "3",
+      "selected_index": 3
+    }
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "2x2 MZI (integrated heaters)",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Mach-Zehnder interferometer with two 2x2 couplers and integrated phase shifters/heaters for tuning. Exact heater configuration (single-arm or push-pull), electrical pads, and MZI internal geometry not specified. 2x2 Heated MZI to Grating Coupler Connection Route Port 1 of a 2x2 MZI (with integrated heaters) to Port 0 of a grating coupler. Optical connectivity: MZI port 1 → grating coupler port 0",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.0578656126482213,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6578656126482213,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 33,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "1",
+      "selected_index": 1
+    }
+  },
+  {
+    "node_id": "n1",
+    "role_raw": "Grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Single optical port labeled Port 0. Grating type (vertical/fiber angle), polarization, and wavelength band not specified. 2x2 Heated MZI to Grating Coupler Connection Route Port 1 of a 2x2 MZI (with integrated heaters) to Port 0 of a grating coupler. Optical connectivity: MZI port 1 → grating coupler port 0",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 22,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "12",
+      "selected_index": 12
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    "alignment:alignment_skipped_no_orientation:n0"
+  ]
+}

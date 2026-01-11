@@ -1,0 +1,31 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0_0" [shape=box,label="n0_0\nphase_shifter"];
+  "n0_1" [shape=box,label="n0_1\nphase_shifter"];
+  "n0_2" [shape=box,label="n0_2\nphase_shifter"];
+  "n0_3" [shape=box,label="n0_3\nphase_shifter"];
+  "n1_0" [shape=box,label="n1_0\nphase_shifter"];
+  "n1_1" [shape=box,label="n1_1\nphase_shifter"];
+  "n1_2" [shape=box,label="n1_2\nphase_shifter"];
+  "n1_3" [shape=box,label="n1_3\nphase_shifter"];
+  "n2_0" [shape=box,label="n2_0\nphase_shifter"];
+  "n2_1" [shape=box,label="n2_1\nphase_shifter"];
+  "n2_2" [shape=box,label="n2_2\nphase_shifter"];
+  "n2_3" [shape=box,label="n2_3\nphase_shifter"];
+  "n3_0" [shape=box,label="n3_0\nphase_shifter"];
+  "n3_1" [shape=box,label="n3_1\nphase_shifter"];
+  "n3_2" [shape=box,label="n3_2\nphase_shifter"];
+  "n3_3" [shape=box,label="n3_3\nphase_shifter"];
+  "n0_0" -> "n0_1" [label="out0->in0"];
+  "n0_1" -> "n0_2" [label="out0->in0"];
+  "n0_2" -> "n0_3" [label="out0->in0"];
+  "n1_0" -> "n1_1" [label="out0->in0"];
+  "n1_1" -> "n1_2" [label="out0->in0"];
+  "n1_2" -> "n1_3" [label="out0->in0"];
+  "n2_0" -> "n2_1" [label="out0->in0"];
+  "n2_1" -> "n2_2" [label="out0->in0"];
+  "n2_2" -> "n2_3" [label="out0->in0"];
+  "n3_0" -> "n3_1" [label="out0->in0"];
+  "n3_1" -> "n3_2" [label="out0->in0"];
+  "n3_2" -> "n3_3" [label="out0->in0"];
+}

@@ -1,0 +1,12 @@
+digraph AutoGDS {
+  rankdir="LR";
+  node [shape=box];
+  "n0_0" [label="n0_0\nheater_tin_cband:heater_tin_cband"];
+  "n0_1" [label="n0_1\nheater_tin_cband:heater_tin_cband"];
+  "n0_2" [label="n0_2\nheater_tin_cband:heater_tin_cband"];
+  "n0_3" [label="n0_3\nheater_tin_cband:heater_tin_cband"];
+  "n0_4" [label="n0_4\nheater_tin_cband:heater_tin_cband"];
+  "n0_5" [label="n0_5\nheater_tin_cband:heater_tin_cband"];
+  "n0_6" [label="n0_6\nheater_tin_cband:heater_tin_cband"];
+  "n0_7" [label="n0_7\nheater_tin_cband:heater_tin_cband"];
+}

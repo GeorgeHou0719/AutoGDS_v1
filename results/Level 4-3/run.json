@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "Sixteen thermo‑optic phase shifters arranged in a 4x4 mesh.",
+  "out": "runs",
+  "non_interactive": false
+}

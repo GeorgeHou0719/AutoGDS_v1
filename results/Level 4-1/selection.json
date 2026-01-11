@@ -1,0 +1,394 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "1",
+      "selected_index": 1
+    }
+  },
+  {
+    "node_id": "n1",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n3",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n4",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n5",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n6",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n7",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n8",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n9",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n10",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n11",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n12",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n13",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n14",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x16 Splitter Tree Using 1x2 MMIs Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters. 1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.0341012216404888,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5341012216404887,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 31,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  }
+]

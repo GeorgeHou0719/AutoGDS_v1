@@ -1,0 +1,210 @@
+[
+  {
+    "symbol": "coupler_ring:coupler_ring",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\coupler_ring.py",
+    "score": 1.1366666666666667,
+    "rationale": "This is a directional coupler with an Euler curvature. Typically used to design ring resonators",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6866666666666666,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 17,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+    "score": 1.049429097605893,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6494290976058932,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 40,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pindiode_cband:mzi_2x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pindiode_cband.py",
+    "score": 1.0024489795918368,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6024489795918367,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 37,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_2x2:mrr_2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_2x2.py",
+    "score": 0.9967976424361492,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5467976424361493,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 13,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pn_diode:mzi_2x2_pn_diode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pn_diode.py",
+    "score": 0.9938519924098672,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5938519924098672,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 25,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_2x2.py",
+    "score": 0.9656652949245541,
+    "rationale": "double bus Micro-ring Resonator. ports: 2x2 NodeLabels: - passive - 2x2 Bandwidth: 50 nm Args: -radius: for the bend and",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5156652949245542,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 13,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "coupler_ring",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\coupler_ring.py",
+    "score": 0.9638983050847457,
+    "rationale": " used to design ring resonators. ports: 2x2 NodeLabels: - passive - 2x2 Bandwidth: 100 nm Args: -gap: spacing between pa",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5138983050847458,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 17,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_mmi2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi2x2.py",
+    "score": 0.9626864147088866,
+    "rationale": "nput and two output ports. --- Name: mmi2x2 Description: A multimode interferometer with two input and two output ports.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5126864147088867,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 20,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pindiode_cband.py",
+    "score": 0.9250885668276972,
+    "rationale": "s is a 2x2 Mach-Zehnder interferometer (MZI). --- Name: MZI 2x2 - PIN Diode Description: > This is a 2x2 Mach-Zehnder in",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5250885668276972,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 37,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+    "score": 0.9198230088495575,
+    "rationale": "s is a 2x2 Mach-Zehnder interferometer (MZI). --- Name: MZI 2x2 - Thermo-optic Description: > This is a 2x2 Mach-Zehnder",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5198230088495575,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 40,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mode_converter",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mode_converter.py",
+    "score": 0.912069970845481,
+    "rationale": "onverts the mode from TE0 to TE1 ports: 2x2 NodeLabels: - passive Bandwidth: 100 nm",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.512069970845481,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 10,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_directional_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_directional_coupler.py",
+    "score": 0.8976017601760176,
+    "rationale": "Can be used for power splitting. ports: 2x2 NodeLabels: - passive Bandwidth: 50 nm Args: -gap: between straights in um. ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.4976017601760176,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 17,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_gc",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+    "score": 0.1,
+    "rationale": "Keyword fallback: ensure relevant components appear in options.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.0,
+        "port_form_match": 0.0,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 20,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

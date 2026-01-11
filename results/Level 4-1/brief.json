@@ -1,0 +1,25 @@
+{
+  "schema_rev": "r1",
+  "title": "1x16 Splitter Tree Using 1x2 MMIs",
+  "summary": "Photonic power splitter tree providing 1 input and 16 outputs, implemented as a cascaded binary tree of 1x2 MMI splitters.",
+  "blocks": [
+    {
+      "role": "1x2 MMI splitter",
+      "count": 15,
+      "notes": "Arrange as a 4-stage binary splitter tree: Stage1=1, Stage2=2, Stage3=4, Stage4=8 (total 15). Target ~50/50 split per MMI; include appropriate MMI body and access tapers per PDK."
+    }
+  ],
+  "wiring_notes": [
+    "Cascade MMIs in a balanced binary tree (1→2→4→8→16).",
+    "Route waveguides to equalize optical path length from input to each of the 16 outputs where feasible (or document allowed imbalance).",
+    "Maintain consistent waveguide type and bends within PDK constraints; include crossings only if unavoidable.",
+    "Label ports as: input=IN; outputs=OUT[1..16] (ordering per layout preference).",
+    "Consider adding gradual fan-out/spacing between stages to meet minimum waveguide spacing and fiber-array / grating-coupler pitch requirements (if applicable)."
+  ],
+  "objective": {
+    "wl_um_min": null,
+    "wl_um_max": null,
+    "io_ports": 17,
+    "target_behavior": "1x16 optical splitter with approximately uniform output power (ideal ~-12 dB per output excluding excess loss), implemented using cascaded 1x2 MMI splitters."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0",
+      "role_raw": "2x2 MZI (with integrated heaters)",
+      "role_canonical": "mzi_2x2",
+      "role_variant": "",
+      "notes": "2x2 Mach–Zehnder Interferometer including integrated thermo-optic heaters on one or both arms for phase tuning. Expose optical ports indexed at least 0..3 (per library convention). Electrical heater pads are part of this block.",
+      "required_port_form": "2x2",
+      "required_ports": {
+        "in": 2,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "n1",
+      "role_raw": "Grating coupler",
+      "role_canonical": "grating_coupler",
+      "role_variant": "",
+      "notes": "Single grating coupler with one optical port (port 0). Orientation/tilt/polarization per PDK defaults unless otherwise specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 0
+    }
+  ],
+  "intents": [
+    {
+      "a": "n0",
+      "a_port": "out0",
+      "b": "n1",
+      "b_port": "in0",
+      "intent": "signal"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n1",
+      "port": "out0"
+    }
+  },
+  "notes": [
+    "Optical connection: MZI optical port 0 -> Grating coupler optical port 0.",
+    "All other MZI optical ports remain unconnected unless otherwise specified.",
+    "No separate heater blocks; heaters are integrated within the MZI block."
+  ]
+}

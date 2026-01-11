@@ -1,0 +1,9 @@
+# AutoGDS Netlist r1
+
+.part n0 mrr_1x1_heater_tin:mrr_1x1_heater_tin
+.param n0.role phase_shifter
+
+.top in0 n0.in0
+.top out0 n0.out0
+
+.end

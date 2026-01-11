@@ -1,0 +1,339 @@
+{
+  "schema_rev": "r1",
+  "parts": [
+    {
+      "name": "n0",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n3",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n4",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n5",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n6",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "gc0",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    },
+    {
+      "name": "gc1",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    },
+    {
+      "name": "gc2",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    },
+    {
+      "name": "gc3",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    },
+    {
+      "name": "gc4",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    },
+    {
+      "name": "gc5",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    },
+    {
+      "name": "gc6",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    },
+    {
+      "name": "gc7",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "a": "n0",
+      "a_port": "o2",
+      "b": "n1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0",
+      "a_port": "o3",
+      "b": "n2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1",
+      "a_port": "o2",
+      "b": "n3",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1",
+      "a_port": "o3",
+      "b": "n4",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2",
+      "a_port": "o2",
+      "b": "n5",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2",
+      "a_port": "o3",
+      "b": "n6",
+      "b_port": "o1"
+    },
+    {
+      "a": "n3",
+      "a_port": "o2",
+      "b": "gc0",
+      "b_port": "o1"
+    },
+    {
+      "a": "n3",
+      "a_port": "o3",
+      "b": "gc1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n4",
+      "a_port": "o2",
+      "b": "gc2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n4",
+      "a_port": "o3",
+      "b": "gc3",
+      "b_port": "o1"
+    },
+    {
+      "a": "n5",
+      "a_port": "o2",
+      "b": "gc4",
+      "b_port": "o1"
+    },
+    {
+      "a": "n5",
+      "a_port": "o3",
+      "b": "gc5",
+      "b_port": "o1"
+    },
+    {
+      "a": "n6",
+      "a_port": "o2",
+      "b": "gc6",
+      "b_port": "o1"
+    },
+    {
+      "a": "n6",
+      "a_port": "o3",
+      "b": "gc7",
+      "b_port": "o1"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "gc0",
+      "port": "out0"
+    },
+    "out1": {
+      "part": "gc1",
+      "port": "out0"
+    },
+    "out2": {
+      "part": "gc2",
+      "port": "out0"
+    },
+    "out3": {
+      "part": "gc3",
+      "port": "out0"
+    },
+    "out4": {
+      "part": "gc4",
+      "port": "out0"
+    },
+    "out5": {
+      "part": "gc5",
+      "port": "out0"
+    },
+    "out6": {
+      "part": "gc6",
+      "port": "out0"
+    },
+    "out7": {
+      "part": "gc7",
+      "port": "out0"
+    }
+  }
+}

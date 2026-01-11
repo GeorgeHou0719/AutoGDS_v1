@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "Connect a 1x2 splitter to a 1x1 microring resonator.",
+  "out": "runs",
+  "non_interactive": false
+}

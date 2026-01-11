@@ -1,0 +1,58 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "2x2 MZI (with integrated heaters)",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer 2x2 Mach–Zehnder Interferometer including integrated thermo-optic heaters on one or both arms for phase tuning. Expose optical ports indexed at least 0..3 (per library convention). Electrical heater pads are part of this block. 2x2 Heated MZI Connected to Grating Coupler (Port0->Port0) Instantiate a 2x2 Mach–Zehnder Interferometer (MZI) with integrated heaters and a grating coupler, and connect MZI port 0 to grating coupler port 0.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 1.049429097605893,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.6494290976058932,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 40,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "1",
+      "selected_index": 1
+    }
+  },
+  {
+    "node_id": "n1",
+    "role_raw": "Grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Single grating coupler with one optical port (port 0). Orientation/tilt/polarization per PDK defaults unless otherwise specified. 2x2 Heated MZI Connected to Grating Coupler (Port0->Port0) Instantiate a 2x2 Mach–Zehnder Interferometer (MZI) with integrated heaters and a grating coupler, and connect MZI port 0 to grating coupler port 0.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "12",
+      "selected_index": 12
+    }
+  }
+]

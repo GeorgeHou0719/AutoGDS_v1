@@ -1,0 +1,32 @@
+digraph AutoGDS {
+  rankdir="LR";
+  node [shape=box];
+  "n0_0" [label="n0_0\nheater_tin_cband:heater_tin_cband"];
+  "n0_1" [label="n0_1\nheater_tin_cband:heater_tin_cband"];
+  "n0_2" [label="n0_2\nheater_tin_cband:heater_tin_cband"];
+  "n0_3" [label="n0_3\nheater_tin_cband:heater_tin_cband"];
+  "n1_0" [label="n1_0\nheater_tin_cband:heater_tin_cband"];
+  "n1_1" [label="n1_1\nheater_tin_cband:heater_tin_cband"];
+  "n1_2" [label="n1_2\nheater_tin_cband:heater_tin_cband"];
+  "n1_3" [label="n1_3\nheater_tin_cband:heater_tin_cband"];
+  "n2_0" [label="n2_0\nheater_tin_cband:heater_tin_cband"];
+  "n2_1" [label="n2_1\nheater_tin_cband:heater_tin_cband"];
+  "n2_2" [label="n2_2\nheater_tin_cband:heater_tin_cband"];
+  "n2_3" [label="n2_3\nheater_tin_cband:heater_tin_cband"];
+  "n3_0" [label="n3_0\nheater_tin_cband:heater_tin_cband"];
+  "n3_1" [label="n3_1\nheater_tin_cband:heater_tin_cband"];
+  "n3_2" [label="n3_2\nheater_tin_cband:heater_tin_cband"];
+  "n3_3" [label="n3_3\nheater_tin_cband:heater_tin_cband"];
+  "n0_0" -> "n0_1" [label="o2 -> o1"];
+  "n0_1" -> "n0_2" [label="o2 -> o1"];
+  "n0_2" -> "n0_3" [label="o2 -> o1"];
+  "n1_0" -> "n1_1" [label="o2 -> o1"];
+  "n1_1" -> "n1_2" [label="o2 -> o1"];
+  "n1_2" -> "n1_3" [label="o2 -> o1"];
+  "n2_0" -> "n2_1" [label="o2 -> o1"];
+  "n2_1" -> "n2_2" [label="o2 -> o1"];
+  "n2_2" -> "n2_3" [label="o2 -> o1"];
+  "n3_0" -> "n3_1" [label="o2 -> o1"];
+  "n3_1" -> "n3_2" [label="o2 -> o1"];
+  "n3_2" -> "n3_3" [label="o2 -> o1"];
+}

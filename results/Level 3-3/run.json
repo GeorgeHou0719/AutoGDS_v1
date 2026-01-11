@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "Eight low loss and low power thermo optic phase shifters. The phase shifters should be arranged in parallel along the y direction in an array.",
+  "out": "runs",
+  "non_interactive": false
+}

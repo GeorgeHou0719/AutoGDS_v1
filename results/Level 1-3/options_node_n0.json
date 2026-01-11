@@ -1,0 +1,194 @@
+[
+  {
+    "symbol": "coupler_ring:coupler_ring",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\coupler_ring.py",
+    "score": 1.2038095238095239,
+    "rationale": "This is a directional coupler with an Euler curvature. Typically used to design ring reson",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.7538095238095238,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 20,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_2x2:mrr_2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_2x2.py",
+    "score": 1.0268523002421306,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5768523002421307,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 13,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+    "score": 1.0142281879194632,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6142281879194631,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pindiode_cband:mzi_2x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pindiode_cband.py",
+    "score": 1.0109255079006774,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.6109255079006772,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_mmi2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi2x2.py",
+    "score": 0.9956851642129104,
+    "rationale": "nput and two output ports. --- Name: mmi2x2 Description: A multimode interferometer with two input and two output ports.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5456851642129105,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 16,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "coupler_ring",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\coupler_ring.py",
+    "score": 0.9889622641509433,
+    "rationale": "This is a directional coupler with an Euler curvature. Typically used to design ring reson",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5389622641509434,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 20,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_2x2",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_2x2.py",
+    "score": 0.9773933649289099,
+    "rationale": ": 50 nm Args: -radius: for the bend and coupler -gap: gap between for the coupler",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.52739336492891,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 13,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pn_diode:mzi_2x2_pn_diode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pn_diode.py",
+    "score": 0.9588863109048724,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5588863109048724,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 21,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_directional_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_directional_coupler.py",
+    "score": 0.92920049200492,
+    "rationale": "This is a directional coupler with two input and two output ports. --- Name: directional_c",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.52920049200492,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 25,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_2x2_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_pindiode_cband.py",
+    "score": 0.9149040139616056,
+    "rationale": "This is a 2x2 Mach-Zehnder interferometer (MZI). --- Name: MZI 2x2 - PIN Diode Description",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5149040139616056,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_directional_coupler_adiabatic",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_directional_coupler_adiabatic.py",
+    "score": 0.9097297297297298,
+    "rationale": "This is an adiabatic directional coupler with two input and two output ports. --- Name: directional_c",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5097297297297297,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 25,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mode_converter",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mode_converter.py",
+    "score": 0.9038983050847458,
+    "rationale": "onverts the mode from TE0 to TE1 ports: 2x2 NodeLabels: - passive Bandwidth: 100 nm",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5138983050847458,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 9,
+        "spec_bonus": 0.09
+      }
+    }
+  }
+]

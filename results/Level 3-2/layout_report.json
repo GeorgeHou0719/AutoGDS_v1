@@ -1,0 +1,10 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    "footprint:n0:placeholder_size",
+    "alignment:alignment_skipped_no_orientation:n0",
+    "alignment:alignment_skipped_no_orientation:n1_1",
+    "alignment:alignment_skipped_no_orientation:n1_0"
+  ]
+}

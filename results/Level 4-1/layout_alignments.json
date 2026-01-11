@@ -1,0 +1,172 @@
+{
+  "schema_rev": "r1",
+  "placements": [
+    {
+      "name": "n0",
+      "symbol": "_mmi1x2",
+      "x_um": 0.0,
+      "y_um": -10.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n2",
+      "symbol": "_mmi1x2",
+      "x_um": 90.0,
+      "y_um": -40.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n1",
+      "symbol": "_mmi1x2",
+      "x_um": 90.0,
+      "y_um": 20.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n6",
+      "symbol": "_mmi1x2",
+      "x_um": 180.0,
+      "y_um": -100.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n5",
+      "symbol": "_mmi1x2",
+      "x_um": 180.0,
+      "y_um": -40.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n4",
+      "symbol": "_mmi1x2",
+      "x_um": 180.0,
+      "y_um": 20.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n3",
+      "symbol": "_mmi1x2",
+      "x_um": 180.0,
+      "y_um": 80.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n14",
+      "symbol": "_mmi1x2",
+      "x_um": 270.0,
+      "y_um": -220.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n13",
+      "symbol": "_mmi1x2",
+      "x_um": 270.0,
+      "y_um": -160.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n12",
+      "symbol": "_mmi1x2",
+      "x_um": 270.0,
+      "y_um": -100.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n11",
+      "symbol": "_mmi1x2",
+      "x_um": 270.0,
+      "y_um": -40.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n10",
+      "symbol": "_mmi1x2",
+      "x_um": 270.0,
+      "y_um": 20.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n9",
+      "symbol": "_mmi1x2",
+      "x_um": 270.0,
+      "y_um": 80.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n8",
+      "symbol": "_mmi1x2",
+      "x_um": 270.0,
+      "y_um": 140.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    },
+    {
+      "name": "n7",
+      "symbol": "_mmi1x2",
+      "x_um": 270.0,
+      "y_um": 200.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    }
+  ],
+  "issues": [
+    "alignment_skipped_no_orientation:n0",
+    "alignment_skipped_no_orientation:n2",
+    "alignment_skipped_no_orientation:n1",
+    "alignment_skipped_no_orientation:n6",
+    "alignment_skipped_no_orientation:n5",
+    "alignment_skipped_no_orientation:n4",
+    "alignment_skipped_no_orientation:n3",
+    "alignment_skipped_no_orientation:n14",
+    "alignment_skipped_no_orientation:n13",
+    "alignment_skipped_no_orientation:n12",
+    "alignment_skipped_no_orientation:n11",
+    "alignment_skipped_no_orientation:n10",
+    "alignment_skipped_no_orientation:n9",
+    "alignment_skipped_no_orientation:n8",
+    "alignment_skipped_no_orientation:n7"
+  ]
+}

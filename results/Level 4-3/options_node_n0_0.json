@@ -1,0 +1,194 @@
+[
+  {
+    "symbol": "heater_tin_cband:heater_tin_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_tin_cband.py",
+    "score": 1.0385271317829456,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5885271317829457,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 29,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "heater_doped_si_cband:heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\heater_doped_si_cband.py",
+    "score": 1.032661596958175,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5826615969581749,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 26,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "pindiode_cband:pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pindiode_cband.py",
+    "score": 1.0315625,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5815625,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_bezier_curve:_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "score": 0.9872026800670016,
+    "rationale": "com/questions/30277646/svg-convert-arcs-to-cubic-bezier",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5872026800670016,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 11,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "score": 0.9833210332103322,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5833210332103321,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 19,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband:mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "score": 0.9784848484848485,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5784848484848485,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+    "score": 0.9738461538461538,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5838461538461538,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 9,
+        "spec_bonus": 0.09
+      }
+    }
+  },
+  {
+    "symbol": "pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pindiode_cband.py",
+    "score": 0.9631588132635253,
+    "rationale": "This is a pin diode. --- Name: PIN Diode Description: > This is a pin diode. The device is",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5131588132635253,
+        "port_form_match": 0.3,
+        "label_hits": 1,
+        "label_bonus": 0.05,
+        "spec_hits": 18,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "score": 0.9110880829015544,
+    "rationale": "implements the Bezier Curve. ports: 1x1 NodeLabels: - passive - 1x1 Bandwidth:",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5110880829015544,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 11,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "score": 0.8695180722891566,
+    "rationale": "This is a waveguide crossing ports: 1x1 NodeLabels: - passive Bandwidth: 100 nm Args: -length: straight length (um)",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5295180722891566,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 4,
+        "spec_bonus": 0.04
+      }
+    }
+  },
+  {
+    "symbol": "photodetector",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\photodetector.py",
+    "score": 0.8680112044817927,
+    "rationale": "or a germanium photodetector ports: 1x1 NodeLabels: - active Bandwidth: 100 nm Args: -length: straight length (um)",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5080112044817927,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 6,
+        "spec_bonus": 0.06
+      }
+    }
+  },
+  {
+    "symbol": "mzi_arm",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_arm.py",
+    "score": 0.8610287443267776,
+    "rationale": "er interferometer (MZI) arm. ports: 1x1 NodeLabels: - passive - 1x1 Bandwidth: 100 nm",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5210287443267776,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 4,
+        "spec_bonus": 0.04
+      }
+    }
+  }
+]

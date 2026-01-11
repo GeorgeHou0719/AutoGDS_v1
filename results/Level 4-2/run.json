@@ -1,0 +1,8 @@
+{
+  "project": "AutoGDS",
+  "autogds_version": "0.1.0",
+  "schema_rev": "r1",
+  "request": "A 3x3 mesh of 2x2 MZIs with back‑to‑back connections between adjacent nodes.",
+  "out": "runs",
+  "non_interactive": false
+}

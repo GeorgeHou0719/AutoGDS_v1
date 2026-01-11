@@ -1,0 +1,12 @@
+digraph AutoGDS {
+  rankdir="LR";
+  node [shape=box];
+  "n0" [label="n0\n_mmi1x2"];
+  "n1" [label="n1\nmrr_1x1_heater_tin:mrr_1x1_heater_tin"];
+  "n0" -> "n1" [label="o2 -> o1"];
+  node [shape=diamond];
+  "in0" [label="in0"];
+  "in0" -> "n0" [label="in0"];
+  "out0" [label="out0"];
+  "out0" -> "n1" [label="out0"];
+}

@@ -1,0 +1,14 @@
+{
+  "schema_rev": "r1",
+  "ok": true,
+  "issues": [
+    {
+      "severity": "warn",
+      "code": "NO_LINKS",
+      "message": "Blueprint has multiple parts but no links",
+      "data": {
+        "parts": 8
+      }
+    }
+  ]
+}

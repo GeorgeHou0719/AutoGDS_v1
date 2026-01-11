@@ -1,0 +1,30 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "directional coupler",
+    "role_canonical": "generic_block",
+    "role_variant": "",
+    "query": "generic_block directional coupler directional_coupler coupler coupler 2x2 directional coupler. Coupling gap = 0.5 µm. Straight coupling length = 50 µm. Waveguide cross-section, bend radii, and access waveguide geometry not specified. Directional Coupler (0.5 µm gap, 50 µm coupling length) Implement a 2x2 directional coupler with specified waveguide gap and coupling section length.",
+    "selected": {
+      "symbol": "_directional_coupler",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_directional_coupler.py",
+      "score": 0.92920049200492,
+      "rationale": "This is a directional coupler with two input and two output ports. --- Name: directional_c",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.52920049200492,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 25,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "8",
+      "selected_index": 8
+    }
+  }
+]

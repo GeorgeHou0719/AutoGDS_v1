@@ -1,0 +1,288 @@
+{
+  "schema_rev": "r1",
+  "parts": [
+    {
+      "name": "n0_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n0_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n3_0",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n3_1",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n3_2",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n3_3",
+      "symbol": "heater_tin_cband:heater_tin_cband",
+      "params": {
+        "role": "phase_shifter"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    }
+  ],
+  "links": [
+    {
+      "a": "n0_0",
+      "a_port": "o2",
+      "b": "n0_1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0_1",
+      "a_port": "o2",
+      "b": "n0_2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0_2",
+      "a_port": "o2",
+      "b": "n0_3",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1_0",
+      "a_port": "o2",
+      "b": "n1_1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1_1",
+      "a_port": "o2",
+      "b": "n1_2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1_2",
+      "a_port": "o2",
+      "b": "n1_3",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2_0",
+      "a_port": "o2",
+      "b": "n2_1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2_1",
+      "a_port": "o2",
+      "b": "n2_2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2_2",
+      "a_port": "o2",
+      "b": "n2_3",
+      "b_port": "o1"
+    },
+    {
+      "a": "n3_0",
+      "a_port": "o2",
+      "b": "n3_1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n3_1",
+      "a_port": "o2",
+      "b": "n3_2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n3_2",
+      "a_port": "o2",
+      "b": "n3_3",
+      "b_port": "o1"
+    }
+  ],
+  "top_ports": {}
+}

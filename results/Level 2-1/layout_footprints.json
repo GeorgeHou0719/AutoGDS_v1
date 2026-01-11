@@ -1,0 +1,31 @@
+{
+  "schema_rev": "r1",
+  "footprints": [
+    {
+      "name": "n0_0",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "width_um": 516.42,
+      "height_um": 295.07,
+      "ports": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "issues": []
+    },
+    {
+      "name": "n0_1",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "width_um": 516.42,
+      "height_um": 295.07,
+      "ports": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "schema_rev": "r1",
+  "footprints": [
+    {
+      "name": "n0",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n1",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n2",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n3",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n4",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n5",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n6",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n7",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n8",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n9",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n10",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n11",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n12",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n13",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    },
+    {
+      "name": "n14",
+      "symbol": "_mmi1x2",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    }
+  ]
+}

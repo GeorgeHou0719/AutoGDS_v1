@@ -1,0 +1,210 @@
+[
+  {
+    "symbol": "edge_coupler:edge_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\edge_coupler.py",
+    "score": 0.9744558521560575,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5744558521560574,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 17,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "edge_coupler",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\edge_coupler.py",
+    "score": 0.9309383378016086,
+    "rationale": "s is a design for an inverse taper edge coupler to couple light onto the chip. --- Name: Edge coupler Description: This ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5309383378016086,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 17,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_heater_doped_si_cband:mzi_1x1_heater_doped_si_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_heater_doped_si_cband.py",
+    "score": 0.9190019193857966,
+    "rationale": "The component.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5190019193857965,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 19,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\pndiode.py",
+    "score": 0.913210332103321,
+    "rationale": "de core. ports: 1x1 NodeLabels: - modulator - active - phase modulation (PM) aka: phase modulator, PN Junction, high-spe",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.513210332103321,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 17,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mzi_1x1_pindiode_cband",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_1x1_pindiode_cband.py",
+    "score": 0.9103285593934288,
+    "rationale": "N Diode. ports: 1x1 NodeLabels: - modulator - active - amplitude modulation (AM) aka: amplitude modulator, Mach-Zehnder ",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5103285593934288,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 12,
+        "spec_bonus": 0.1
+      }
+    }
+  },
+  {
+    "symbol": "mrr_1x1_heater_tin",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+    "score": 0.8988821385176184,
+    "rationale": "This is a microring resonator with TiN heater for modulation. --- Name: Microring Resonator with TiN Heate",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5188821385176184,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 8,
+        "spec_bonus": 0.08
+      }
+    }
+  },
+  {
+    "symbol": "mrm_1x1_pndiode",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrm_1x1_pndiode.py",
+    "score": 0.8981861575178998,
+    "rationale": "This is a microring modulator with PN Diodes for high speed modulation. --- Name: Microring Modulator with",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5181861575178998,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 8,
+        "spec_bonus": 0.08
+      }
+    }
+  },
+  {
+    "symbol": "crossing",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\crossing.py",
+    "score": 0.8963919129082426,
+    "rationale": "This is a waveguide crossing. --- Name: waveguide crossing Description: This is a wavegu",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5563919129082426,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 4,
+        "spec_bonus": 0.04
+      }
+    }
+  },
+  {
+    "symbol": "mrr_1x1",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1.py",
+    "score": 0.8922222222222221,
+    "rationale": ": 50 nm Args: -radius: for the bend and coupler -gap: gap between for the coupler",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5422222222222222,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 5,
+        "spec_bonus": 0.05
+      }
+    }
+  },
+  {
+    "symbol": "photodetector",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\photodetector.py",
+    "score": 0.8888600288600288,
+    "rationale": "This is a design for a germanium photodetector. --- Name: Germanium photodetector (PD) Description: This is a design",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5088600288600288,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 8,
+        "spec_bonus": 0.08
+      }
+    }
+  },
+  {
+    "symbol": "_bezier_curve",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_bezier_curve.py",
+    "score": 0.8792942743009321,
+    "rationale": " function maps a radii and and an angle to a 4 control points that implements the Bezier Curve. ports: 1x1 NodeLabels: -",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.5092942743009321,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 7,
+        "spec_bonus": 0.07
+      }
+    }
+  },
+  {
+    "symbol": "straight",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\straight.py",
+    "score": 0.874090909090909,
+    "rationale": "a straight single-mode waveguide aka photonic wire. --- Name: straight waveguide Description: This is a straight single-",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.514090909090909,
+        "port_form_match": 0.3,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 6,
+        "spec_bonus": 0.06
+      }
+    }
+  },
+  {
+    "symbol": "_gc",
+    "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+    "score": 0.1,
+    "rationale": "Keyword fallback: ensure relevant components appear in options.",
+    "extras": {
+      "score_breakdown": {
+        "base_score": 0.0,
+        "port_form_match": 0.0,
+        "label_hits": 0,
+        "label_bonus": 0.0,
+        "spec_hits": 21,
+        "spec_bonus": 0.1
+      }
+    }
+  }
+]

@@ -1,0 +1,32 @@
+# AutoGDS Netlist r1
+
+.part n0_0 mrr_1x1_heater_tin:mrr_1x1_heater_tin
+.param n0_0.role phase_shifter
+
+.part n0_1 mrr_1x1_heater_tin:mrr_1x1_heater_tin
+.param n0_1.role phase_shifter
+
+.part n0_2 mrr_1x1_heater_tin:mrr_1x1_heater_tin
+.param n0_2.role phase_shifter
+
+.part n0_3 mrr_1x1_heater_tin:mrr_1x1_heater_tin
+.param n0_3.role phase_shifter
+
+.part n1_0 _gc
+.param n1_0.role grating_coupler
+
+.part n1_1 _gc
+.param n1_1.role grating_coupler
+
+.part n1_2 _gc
+.param n1_2.role grating_coupler
+
+.part n1_3 _gc
+.param n1_3.role grating_coupler
+
+.net n0 n0_0.o2 n1_0.o1
+.net n1 n0_1.o2 n1_1.o1
+.net n2 n0_2.o2 n1_2.o1
+.net n3 n0_3.o2 n1_3.o1
+
+.end

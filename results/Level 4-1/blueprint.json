@@ -1,0 +1,371 @@
+{
+  "schema_rev": "r1",
+  "parts": [
+    {
+      "name": "n0",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n2",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n3",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n4",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n5",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n6",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n7",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n8",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n9",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n10",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n11",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n12",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n13",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n14",
+      "symbol": "_mmi1x2",
+      "params": {
+        "role": "splitter_1x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "out0": "o2",
+        "out1": "o3"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    }
+  ],
+  "links": [
+    {
+      "a": "n0",
+      "a_port": "o2",
+      "b": "n1",
+      "b_port": "o1"
+    },
+    {
+      "a": "n0",
+      "a_port": "o3",
+      "b": "n2",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1",
+      "a_port": "o2",
+      "b": "n3",
+      "b_port": "o1"
+    },
+    {
+      "a": "n1",
+      "a_port": "o3",
+      "b": "n4",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2",
+      "a_port": "o2",
+      "b": "n5",
+      "b_port": "o1"
+    },
+    {
+      "a": "n2",
+      "a_port": "o3",
+      "b": "n6",
+      "b_port": "o1"
+    },
+    {
+      "a": "n3",
+      "a_port": "o2",
+      "b": "n7",
+      "b_port": "o1"
+    },
+    {
+      "a": "n3",
+      "a_port": "o3",
+      "b": "n8",
+      "b_port": "o1"
+    },
+    {
+      "a": "n4",
+      "a_port": "o2",
+      "b": "n9",
+      "b_port": "o1"
+    },
+    {
+      "a": "n4",
+      "a_port": "o3",
+      "b": "n10",
+      "b_port": "o1"
+    },
+    {
+      "a": "n5",
+      "a_port": "o2",
+      "b": "n11",
+      "b_port": "o1"
+    },
+    {
+      "a": "n5",
+      "a_port": "o3",
+      "b": "n12",
+      "b_port": "o1"
+    },
+    {
+      "a": "n6",
+      "a_port": "o2",
+      "b": "n13",
+      "b_port": "o1"
+    },
+    {
+      "a": "n6",
+      "a_port": "o3",
+      "b": "n14",
+      "b_port": "o1"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n7",
+      "port": "out0"
+    },
+    "out1": {
+      "part": "n7",
+      "port": "out1"
+    },
+    "out2": {
+      "part": "n8",
+      "port": "out0"
+    },
+    "out3": {
+      "part": "n8",
+      "port": "out1"
+    },
+    "out4": {
+      "part": "n9",
+      "port": "out0"
+    },
+    "out5": {
+      "part": "n9",
+      "port": "out1"
+    },
+    "out6": {
+      "part": "n10",
+      "port": "out0"
+    },
+    "out7": {
+      "part": "n10",
+      "port": "out1"
+    },
+    "out8": {
+      "part": "n11",
+      "port": "out0"
+    },
+    "out9": {
+      "part": "n11",
+      "port": "out1"
+    },
+    "out10": {
+      "part": "n12",
+      "port": "out0"
+    },
+    "out11": {
+      "part": "n12",
+      "port": "out1"
+    },
+    "out12": {
+      "part": "n13",
+      "port": "out0"
+    },
+    "out13": {
+      "part": "n13",
+      "port": "out1"
+    },
+    "out14": {
+      "part": "n14",
+      "port": "out0"
+    },
+    "out15": {
+      "part": "n14",
+      "port": "out1"
+    }
+  }
+}

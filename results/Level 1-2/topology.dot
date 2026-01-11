@@ -1,0 +1,4 @@
+digraph AutoGDS_Topology {
+  rankdir=LR;
+  "n0" [shape=box,label="n0\nmzi_2x2"];
+}

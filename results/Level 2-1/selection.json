@@ -1,0 +1,56 @@
+[
+  {
+    "node_id": "n0_0",
+    "role_raw": "Mach-Zehnder Interferometer (2x2) with integrated TiN heaters",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer C-band operation. Use 500 nm-wide waveguides throughout the MZI. Include integrated TiN heaters (one per arm or as required by design) with heater length = 10 µm. Provide two optical input ports and two optical output ports per MZI (2x2). Two cascaded TiN-heated MZIs for C-band Photonic circuit comprising two Mach-Zehnder interferometers connected in series (cascaded). Each MZI includes integrated TiN heaters for thermo-optic phase tuning in C-band. Waveguides are 500 nm wide; each heater is 10 µm long. Each MZI is a 2x2 device (two inputs, two outputs). Two-stage cascaded 2x2 MZI network with thermo-optic tunability via integrated TiN heaters for C-band operation.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 0.9926760563380281,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5926760563380281,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 55,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "1",
+      "selected_index": 1
+    }
+  },
+  {
+    "node_id": "n0_1",
+    "role_raw": "Mach-Zehnder Interferometer (2x2) with integrated TiN heaters",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer C-band operation. Use 500 nm-wide waveguides throughout the MZI. Include integrated TiN heaters (one per arm or as required by design) with heater length = 10 µm. Provide two optical input ports and two optical output ports per MZI (2x2). Two cascaded TiN-heated MZIs for C-band Photonic circuit comprising two Mach-Zehnder interferometers connected in series (cascaded). Each MZI includes integrated TiN heaters for thermo-optic phase tuning in C-band. Waveguides are 500 nm wide; each heater is 10 µm long. Each MZI is a 2x2 device (two inputs, two outputs). Two-stage cascaded 2x2 MZI network with thermo-optic tunability via integrated TiN heaters for C-band operation.",
+    "selected": {
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mzi_2x2_heater_tin_cband.py",
+      "score": 0.9926760563380281,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5926760563380281,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 55,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  }
+]

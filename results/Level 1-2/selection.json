@@ -1,0 +1,30 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "4-channel WDM mux/demux (e.g., AWG or cascaded MZI lattice)",
+    "role_canonical": "mzi_2x2",
+    "role_variant": "",
+    "query": "mzi_2x2 mzi mach_zehnder 2x2 interferometer Provide 1 common port and 4 wavelength-selective channel ports. Target equal channel spacing and low inter-channel crosstalk; implementation may be AWG-based or MZI-lattice-based as a single integrated block. Four-channel WDM A photonic wavelength-division multiplexer/demultiplexer supporting four wavelength channels on a single bus waveguide, with one common port and four channel ports. Multiplex/demultiplex four wavelength channels between one common waveguide port and four channel ports (4λ↔1).",
+    "selected": {
+      "symbol": "wdm_mzi1x4:wdm_mzi1x4",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\wdm_mzi1x4.py",
+      "score": 1.0124742268041236,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5624742268041237,
+          "port_form_match": 0.3,
+          "label_hits": 1,
+          "label_bonus": 0.05,
+          "spec_hits": 34,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "0",
+      "selected_index": 0
+    }
+  }
+]

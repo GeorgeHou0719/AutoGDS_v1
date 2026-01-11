@@ -1,0 +1,22 @@
+{
+  "catalog_index": "runs\\20260110_000508_dd647e\\catalog\\index.json",
+  "wiring_plan": "runs\\20260110_000508_dd647e\\wiring_plan.json",
+  "topology_plan": "runs\\20260110_000508_dd647e\\topology_plan.json",
+  "topology_dot": "runs\\20260110_000508_dd647e\\topology.dot",
+  "options_node_n0": "runs\\20260110_000508_dd647e\\options_node_n0.json",
+  "selection": "runs\\20260110_000508_dd647e\\selection.json",
+  "blueprint": "runs\\20260110_000508_dd647e\\blueprint.json",
+  "graph_dot": "runs\\20260110_000508_dd647e\\graph.dot",
+  "netlist": "runs\\20260110_000508_dd647e\\netlist.txt",
+  "verify_report": "runs\\20260110_000508_dd647e\\verify_report.json",
+  "layout_netlist": "runs\\20260110_000508_dd647e\\layout_netlist.json",
+  "layout_footprints": "runs\\20260110_000508_dd647e\\layout_footprints.json",
+  "layout_placements": "runs\\20260110_000508_dd647e\\layout_placements.json",
+  "layout_alignments": "runs\\20260110_000508_dd647e\\layout_alignments.json",
+  "layout_routes": "runs\\20260110_000508_dd647e\\layout_routes.json",
+  "layout_precheck": "runs\\20260110_000508_dd647e\\layout_precheck.json",
+  "layout_emit": "runs\\20260110_000508_dd647e\\layout_emit.json",
+  "layout_gds": "runs\\20260110_000508_dd647e\\layout.gds",
+  "layout_report": "runs\\20260110_000508_dd647e\\layout_report.json",
+  "artifacts_manifest": "runs\\20260110_000508_dd647e\\artifacts.json"
+}

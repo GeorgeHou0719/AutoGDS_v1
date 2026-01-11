@@ -1,0 +1,83 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0",
+      "role_raw": "power splitter (1×2)",
+      "role_canonical": "splitter_1x2",
+      "role_variant": "",
+      "notes": "Single optical input, two optical outputs. Split ratio not specified (default to 50/50 unless otherwise constrained).",
+      "required_port_form": "1x2",
+      "required_ports": {
+        "in": 1,
+        "out": 2
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "n1_0",
+      "role_raw": "MZI (1×1) with integrated doped heaters",
+      "role_canonical": "mzi_2x2",
+      "role_variant": "",
+      "notes": "Each MZI is 1×1 (one optical input, one optical output). Include integrated doped heaters (no separate heater block). Arm path-length difference ΔL = 100 µm.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "n1_1",
+      "role_raw": "MZI (1×1) with integrated doped heaters",
+      "role_canonical": "mzi_2x2",
+      "role_variant": "",
+      "notes": "Each MZI is 1×1 (one optical input, one optical output). Include integrated doped heaters (no separate heater block). Arm path-length difference ΔL = 100 µm.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 1
+    }
+  ],
+  "intents": [
+    {
+      "a": "n0",
+      "a_port": "out0",
+      "b": "n1_0",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n0",
+      "a_port": "out1",
+      "b": "n1_1",
+      "b_port": "in0",
+      "intent": "signal"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n1_0",
+      "port": "out0"
+    },
+    "out1": {
+      "part": "n1_1",
+      "port": "out0"
+    }
+  },
+  "notes": [
+    "Connect splitter output port 1 -> MZI #1 input port.",
+    "Connect splitter output port 2 -> MZI #2 input port.",
+    "Expose MZI #1 output port and MZI #2 output port as top-level outputs (unless otherwise specified).",
+    "Expose splitter input port as the single top-level input."
+  ]
+}

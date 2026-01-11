@@ -1,0 +1,10 @@
+digraph AutoGDS {
+  rankdir="LR";
+  node [shape=box];
+  "n0" [label="n0\nwdm_mzi1x4:wdm_mzi1x4"];
+  node [shape=diamond];
+  "in0" [label="in0"];
+  "in0" -> "n0" [label="in0"];
+  "out0" [label="out0"];
+  "out0" -> "n0" [label="out0"];
+}

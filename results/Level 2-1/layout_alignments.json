@@ -1,0 +1,29 @@
+{
+  "schema_rev": "r1",
+  "placements": [
+    {
+      "name": "n0_0",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "x_um": 0.0,
+      "y_um": -147.535,
+      "rotation_deg": 0.0,
+      "width_um": 516.42,
+      "height_um": 295.07,
+      "issues": []
+    },
+    {
+      "name": "n0_1",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "x_um": 556.42,
+      "y_um": -147.535,
+      "rotation_deg": 0.0,
+      "width_um": 516.42,
+      "height_um": 295.07,
+      "issues": []
+    }
+  ],
+  "issues": [
+    "alignment_skipped_no_orientation:n0_0",
+    "alignment_skipped_no_orientation:n0_1"
+  ]
+}

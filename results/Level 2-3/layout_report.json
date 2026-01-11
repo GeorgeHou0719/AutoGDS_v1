@@ -1,0 +1,10 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    "port_map_issue:n1:missing_exposed_port_for_out0",
+    "footprint:n1:placeholder_size",
+    "alignment:alignment_skipped_no_orientation:n0",
+    "alignment:alignment_skipped_no_orientation:n1"
+  ]
+}

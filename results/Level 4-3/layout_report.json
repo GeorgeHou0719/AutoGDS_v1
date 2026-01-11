@@ -1,0 +1,22 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    "alignment:alignment_skipped_no_orientation:n0_0",
+    "alignment:alignment_skipped_no_orientation:n0_1",
+    "alignment:alignment_skipped_no_orientation:n0_2",
+    "alignment:alignment_skipped_no_orientation:n0_3",
+    "alignment:alignment_skipped_no_orientation:n1_0",
+    "alignment:alignment_skipped_no_orientation:n1_1",
+    "alignment:alignment_skipped_no_orientation:n1_2",
+    "alignment:alignment_skipped_no_orientation:n1_3",
+    "alignment:alignment_skipped_no_orientation:n2_0",
+    "alignment:alignment_skipped_no_orientation:n2_1",
+    "alignment:alignment_skipped_no_orientation:n2_2",
+    "alignment:alignment_skipped_no_orientation:n2_3",
+    "alignment:alignment_skipped_no_orientation:n3_0",
+    "alignment:alignment_skipped_no_orientation:n3_1",
+    "alignment:alignment_skipped_no_orientation:n3_2",
+    "alignment:alignment_skipped_no_orientation:n3_3"
+  ]
+}

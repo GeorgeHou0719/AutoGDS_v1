@@ -1,0 +1,320 @@
+{
+  "schema_rev": "r1",
+  "nodes": [
+    {
+      "node_id": "n0_0",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 0
+    },
+    {
+      "node_id": "n0_1",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 1
+    },
+    {
+      "node_id": "n0_2",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 2
+    },
+    {
+      "node_id": "n0_3",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 3
+    },
+    {
+      "node_id": "n1_0",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 4
+    },
+    {
+      "node_id": "n1_1",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 5
+    },
+    {
+      "node_id": "n1_2",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 6
+    },
+    {
+      "node_id": "n1_3",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 7
+    },
+    {
+      "node_id": "n2_0",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 8
+    },
+    {
+      "node_id": "n2_1",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 9
+    },
+    {
+      "node_id": "n2_2",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 10
+    },
+    {
+      "node_id": "n2_3",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 11
+    },
+    {
+      "node_id": "n3_0",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 12
+    },
+    {
+      "node_id": "n3_1",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 13
+    },
+    {
+      "node_id": "n3_2",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 14
+    },
+    {
+      "node_id": "n3_3",
+      "role_raw": "thermo-optic phase shifter",
+      "role_canonical": "phase_shifter",
+      "role_variant": "thermal",
+      "notes": "Mesh/array node; connect adjacent nodes back-to-back if specified.",
+      "required_port_form": "1x1",
+      "required_ports": {
+        "in": 1,
+        "out": 1
+      },
+      "kind": "component",
+      "index_in_role": 15
+    }
+  ],
+  "intents": [
+    {
+      "a": "n0_0",
+      "a_port": "out0",
+      "b": "n0_1",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n0_1",
+      "a_port": "out0",
+      "b": "n0_2",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n0_2",
+      "a_port": "out0",
+      "b": "n0_3",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n1_0",
+      "a_port": "out0",
+      "b": "n1_1",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n1_1",
+      "a_port": "out0",
+      "b": "n1_2",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n1_2",
+      "a_port": "out0",
+      "b": "n1_3",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n2_0",
+      "a_port": "out0",
+      "b": "n2_1",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n2_1",
+      "a_port": "out0",
+      "b": "n2_2",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n2_2",
+      "a_port": "out0",
+      "b": "n2_3",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n3_0",
+      "a_port": "out0",
+      "b": "n3_1",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n3_1",
+      "a_port": "out0",
+      "b": "n3_2",
+      "b_port": "in0",
+      "intent": "signal"
+    },
+    {
+      "a": "n3_2",
+      "a_port": "out0",
+      "b": "n3_3",
+      "b_port": "in0",
+      "intent": "signal"
+    }
+  ],
+  "top_ports": {},
+  "notes": [
+    "Mesh topology: 4 rows x 4 cols.",
+    "Adjacent nodes are connected horizontally only, with port index preserved."
+  ]
+}

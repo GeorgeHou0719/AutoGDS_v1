@@ -1,0 +1,396 @@
+[
+  {
+    "node_id": "n0",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.031150895140665,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5311508951406649,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 32,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "1",
+      "selected_index": 1
+    }
+  },
+  {
+    "node_id": "n1",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.031150895140665,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5311508951406649,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 32,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n2",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.031150895140665,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5311508951406649,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 32,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n3",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.031150895140665,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5311508951406649,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 32,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n4",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.031150895140665,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5311508951406649,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 32,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n5",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.031150895140665,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5311508951406649,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 32,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n6",
+    "role_raw": "1x2 MMI splitter (tree)",
+    "role_canonical": "splitter_1x2",
+    "role_variant": "",
+    "query": "splitter_1x2 y_branch splitter power splitter 1x2 directional coupler coupler mmi passive mmi splitter Binary splitter tree node (1 input, 2 outputs). 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_mmi1x2",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_mmi1x2.py",
+      "score": 1.031150895140665,
+      "rationale": "two output ports. It functions as a beamsplitter or power splitter, dividing the input equally between the two outputs. ",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5311508951406649,
+          "port_form_match": 0.3,
+          "label_hits": 2,
+          "label_bonus": 0.1,
+          "spec_hits": 32,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "gc0",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Grating coupler attached to splitter-tree output. 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "12",
+      "selected_index": 12
+    }
+  },
+  {
+    "node_id": "gc1",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Grating coupler attached to splitter-tree output. 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "gc2",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Grating coupler attached to splitter-tree output. 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "gc3",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Grating coupler attached to splitter-tree output. 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "gc4",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Grating coupler attached to splitter-tree output. 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "gc5",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Grating coupler attached to splitter-tree output. 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "gc6",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Grating coupler attached to splitter-tree output. 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "gc7",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler Grating coupler attached to splitter-tree output. 1x8 Splitter Tree with Grating Coupler Outputs Implement a 1x8 optical power splitter tree built from cascaded 1x2 MMI splitters. Route each of the eight outputs to an individual grating coupler for off-chip coupling. 1 optical input split into 8 approximately equal-power outputs, each terminated by a grating coupler for off-chip coupling.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 21,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    {
+      "severity": "warn",
+      "code": "TOPPORT_UNKNOWN_LOGICAL",
+      "message": "Top port refers to unknown logical port",
+      "data": {
+        "top_port": "out0",
+        "part": "n1",
+        "port": "out0"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "n1"
+      }
+    }
+  ]
+}

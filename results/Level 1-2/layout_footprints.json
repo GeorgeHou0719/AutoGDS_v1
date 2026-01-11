@@ -1,0 +1,21 @@
+{
+  "schema_rev": "r1",
+  "footprints": [
+    {
+      "name": "n0",
+      "symbol": "wdm_mzi1x4:wdm_mzi1x4",
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "ports": [
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "o5"
+      ],
+      "issues": [
+        "placeholder_size"
+      ]
+    }
+  ]
+}

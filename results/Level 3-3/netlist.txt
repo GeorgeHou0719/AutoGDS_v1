@@ -1,0 +1,28 @@
+# AutoGDS Netlist r1
+
+.part n0_0 heater_tin_cband:heater_tin_cband
+.param n0_0.role phase_shifter
+
+.part n0_1 heater_tin_cband:heater_tin_cband
+.param n0_1.role phase_shifter
+
+.part n0_2 heater_tin_cband:heater_tin_cband
+.param n0_2.role phase_shifter
+
+.part n0_3 heater_tin_cband:heater_tin_cband
+.param n0_3.role phase_shifter
+
+.part n0_4 heater_tin_cband:heater_tin_cband
+.param n0_4.role phase_shifter
+
+.part n0_5 heater_tin_cband:heater_tin_cband
+.param n0_5.role phase_shifter
+
+.part n0_6 heater_tin_cband:heater_tin_cband
+.param n0_6.role phase_shifter
+
+.part n0_7 heater_tin_cband:heater_tin_cband
+.param n0_7.role phase_shifter
+
+
+.end

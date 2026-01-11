@@ -1,0 +1,52 @@
+{
+  "schema_rev": "r1",
+  "parts": [
+    {
+      "name": "n0",
+      "symbol": "mzi_2x2_heater_tin_cband:mzi_2x2_heater_tin_cband",
+      "params": {
+        "role": "mzi_2x2"
+      },
+      "logical_port_map": {
+        "in0": "o1",
+        "in1": "o2",
+        "out0": "o3",
+        "out1": "o4"
+      },
+      "param_issues": [],
+      "port_map_issues": []
+    },
+    {
+      "name": "n1",
+      "symbol": "_gc",
+      "params": {
+        "role": "grating_coupler"
+      },
+      "logical_port_map": {
+        "in0": "o1"
+      },
+      "param_issues": [],
+      "port_map_issues": [
+        "missing_exposed_port_for_out0"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "a": "n0",
+      "a_port": "o3",
+      "b": "n1",
+      "b_port": "o1"
+    }
+  ],
+  "top_ports": {
+    "in0": {
+      "part": "n0",
+      "port": "in0"
+    },
+    "out0": {
+      "part": "n1",
+      "port": "out0"
+    }
+  }
+}

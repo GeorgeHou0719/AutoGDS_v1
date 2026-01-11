@@ -1,0 +1,38 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "n1_0"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "n1_1"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "n1_2"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "PORT_MAP_ISSUE",
+      "message": "missing_exposed_port_for_out0",
+      "data": {
+        "part": "n1_3"
+      }
+    }
+  ]
+}

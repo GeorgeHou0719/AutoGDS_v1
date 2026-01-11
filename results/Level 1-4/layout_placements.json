@@ -1,0 +1,16 @@
+{
+  "schema_rev": "r1",
+  "placements": [
+    {
+      "name": "n0",
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "x_um": 0.0,
+      "y_um": -10.0,
+      "rotation_deg": 0.0,
+      "width_um": 50.0,
+      "height_um": 20.0,
+      "issues": []
+    }
+  ],
+  "issues": []
+}

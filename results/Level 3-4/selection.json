@@ -1,0 +1,214 @@
+[
+  {
+    "node_id": "n0_0",
+    "role_raw": "microring resonator with integrated heater",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Place the four rings in an array along +y with uniform pitch. Each ring includes an integrated thermal tuner/heater and electrical access (pads/metal routing as supported by the PDK) within the same block. Optical coupling to an adjacent bus waveguide suitable for routing to a grating coupler. Four-heated-microring array with grating couplers An array of four microring resonators laid out along the y-direction. Each microring includes an integrated heater and is optically connected to its own grating coupler for fiber interfacing. Four independent thermally tunable microring channels, each accessible via its own grating coupler connection.",
+    "selected": {
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+      "score": 0.9717678812415654,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5717678812415654,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 25,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "5",
+      "selected_index": 5
+    }
+  },
+  {
+    "node_id": "n0_1",
+    "role_raw": "microring resonator with integrated heater",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Place the four rings in an array along +y with uniform pitch. Each ring includes an integrated thermal tuner/heater and electrical access (pads/metal routing as supported by the PDK) within the same block. Optical coupling to an adjacent bus waveguide suitable for routing to a grating coupler. Four-heated-microring array with grating couplers An array of four microring resonators laid out along the y-direction. Each microring includes an integrated heater and is optically connected to its own grating coupler for fiber interfacing. Four independent thermally tunable microring channels, each accessible via its own grating coupler connection.",
+    "selected": {
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+      "score": 0.9717678812415654,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5717678812415654,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 25,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_2",
+    "role_raw": "microring resonator with integrated heater",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Place the four rings in an array along +y with uniform pitch. Each ring includes an integrated thermal tuner/heater and electrical access (pads/metal routing as supported by the PDK) within the same block. Optical coupling to an adjacent bus waveguide suitable for routing to a grating coupler. Four-heated-microring array with grating couplers An array of four microring resonators laid out along the y-direction. Each microring includes an integrated heater and is optically connected to its own grating coupler for fiber interfacing. Four independent thermally tunable microring channels, each accessible via its own grating coupler connection.",
+    "selected": {
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+      "score": 0.9717678812415654,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5717678812415654,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 25,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n0_3",
+    "role_raw": "microring resonator with integrated heater",
+    "role_canonical": "phase_shifter",
+    "role_variant": "thermal",
+    "query": "phase_shifter heater thermal eo tuning pi Place the four rings in an array along +y with uniform pitch. Each ring includes an integrated thermal tuner/heater and electrical access (pads/metal routing as supported by the PDK) within the same block. Optical coupling to an adjacent bus waveguide suitable for routing to a grating coupler. Four-heated-microring array with grating couplers An array of four microring resonators laid out along the y-direction. Each microring includes an integrated heater and is optically connected to its own grating coupler for fiber interfacing. Four independent thermally tunable microring channels, each accessible via its own grating coupler connection.",
+    "selected": {
+      "symbol": "mrr_1x1_heater_tin:mrr_1x1_heater_tin",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\mrr_1x1_heater_tin.py",
+      "score": 0.9717678812415654,
+      "rationale": "The component.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.5717678812415654,
+          "port_form_match": 0.3,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 25,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_0",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler One grating coupler per microring path; orientation and polarization (TE/TM) and fiber angle per PDK defaults unless specified. Include short access waveguides/tapers as required by the grating coupler primitive. Four-heated-microring array with grating couplers An array of four microring resonators laid out along the y-direction. Each microring includes an integrated heater and is optically connected to its own grating coupler for fiber interfacing. Four independent thermally tunable microring channels, each accessible via its own grating coupler connection.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 23,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "interactive",
+      "user_input": "12",
+      "selected_index": 12
+    }
+  },
+  {
+    "node_id": "n1_1",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler One grating coupler per microring path; orientation and polarization (TE/TM) and fiber angle per PDK defaults unless specified. Include short access waveguides/tapers as required by the grating coupler primitive. Four-heated-microring array with grating couplers An array of four microring resonators laid out along the y-direction. Each microring includes an integrated heater and is optically connected to its own grating coupler for fiber interfacing. Four independent thermally tunable microring channels, each accessible via its own grating coupler connection.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 23,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_2",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler One grating coupler per microring path; orientation and polarization (TE/TM) and fiber angle per PDK defaults unless specified. Include short access waveguides/tapers as required by the grating coupler primitive. Four-heated-microring array with grating couplers An array of four microring resonators laid out along the y-direction. Each microring includes an integrated heater and is optically connected to its own grating coupler for fiber interfacing. Four independent thermally tunable microring channels, each accessible via its own grating coupler connection.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 23,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  },
+  {
+    "node_id": "n1_3",
+    "role_raw": "grating coupler",
+    "role_canonical": "grating_coupler",
+    "role_variant": "",
+    "query": "grating_coupler grating coupler gc fiber period coupler One grating coupler per microring path; orientation and polarization (TE/TM) and fiber angle per PDK defaults unless specified. Include short access waveguides/tapers as required by the grating coupler primitive. Four-heated-microring array with grating couplers An array of four microring resonators laid out along the y-direction. Each microring includes an integrated heater and is optically connected to its own grating coupler for fiber interfacing. Four independent thermally tunable microring channels, each accessible via its own grating coupler connection.",
+    "selected": {
+      "symbol": "_gc",
+      "source_file": "D:\\Reform and Opening Up\\AutoGDS_v1\\KnowledgeBase\\DesignLibrary\\_gc.py",
+      "score": 0.1,
+      "rationale": "Keyword fallback: ensure relevant components appear in options.",
+      "extras": {
+        "score_breakdown": {
+          "base_score": 0.0,
+          "port_form_match": 0.0,
+          "label_hits": 0,
+          "label_bonus": 0.0,
+          "spec_hits": 23,
+          "spec_bonus": 0.1
+        }
+      }
+    },
+    "selection_meta": {
+      "mode": "cache"
+    }
+  }
+]

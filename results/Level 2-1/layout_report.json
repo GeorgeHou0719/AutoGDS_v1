@@ -1,0 +1,10 @@
+{
+  "schema_rev": "r1",
+  "ok": false,
+  "issues": [
+    "param_issue:n0_0:param_not_in_args_sig:use",
+    "param_issue:n0_1:param_not_in_args_sig:use",
+    "alignment:alignment_skipped_no_orientation:n0_0",
+    "alignment:alignment_skipped_no_orientation:n0_1"
+  ]
+}
