@@ -38,7 +38,6 @@ AutoGDS_v1/
 ├── requirements.txt                 # Minimal dependencies
 ├── pyproject.toml                   # Packaging and build config
 └── README.md                        # This file (English version)
-└── README_zh.md                     # This file (Chinese Version)
 ```
 
 **For used guide, see `GETTING_STARTED.md`.**
