@@ -5,11 +5,7 @@
 
 Despite its maturity, the PIC design process remains labor-intensive. Many stages require expert time to translate requirements into geometry, verify constraints, and iterate. As a result, there is strong motivation to introduce **AI assistance**. Prior research has largely focused on **inverse-design** neural networks for one device or a narrow class of devices. These approaches lack generality and do not fundamentally improve productivity across the broader silicon photonics industry.
 
-This course project, AutoGDS, is the first step of my undergraduate thesis. The long-term goal is a **multi-agent** PIC design helper: starting from **natural-language** requirements, agents would interpret specifications, run simulations, optimize performance metrics, decide geometry and parameters, and finally generate fabrication-ready `GDS` masks.
-
-Currently, AutoGDS focuses on the last step of that vision: **given geometry and parameters expressed in natural language, the system uses agents to produce a concrete `GDS layout`**, potentially freeing engineers from their least favorite part of work.
-
-This project currently contains about **12,158 lines of Python code** (excluding the PhIDO reference folder and virtual environments), and all API keys used for development and testing were **self-funded**.
+This course project, AutoGDS, is the first step toward a **multi-agent** PIC design helper: starting from **natural-language** requirements, agents would interpret specifications, run simulations, optimize performance metrics, decide geometry and parameters, and finally generate fabrication-ready `GDS` masks. Currently, AutoGDS focuses on the last step of that vision: **given geometry and parameters expressed in natural language, the system uses agents to produce a concrete `GDS layout`**, potentially freeing engineers from their least favorite part of work.
 
 ## Project Structure
 ```
@@ -254,8 +250,6 @@ Parameter assignment errors stem from natural-language constraints that are embe
 
 Topology layout errors are rare but high-impact because a single wrong connection can invalidate the circuit. These errors usually arise from ambiguous words like “cascade,” “mesh,” or “array,” and from inconsistent port-order conventions across components. The solution is to formalize topology templates, make port-order rules explicit, and validate the graph against required port forms before layout so incorrect wiring is caught early.
 
-Due to limited API budget, I did not perform further optimization and re-tests.
-
 ## Outlook and Improvements
 AutoGDS can become more reliable by adding a **real-time interactive loop** where users can correct the pipeline when it makes a mistake. In practice, this means exposing intermediate artifacts (`brief.json`, `topology_plan.json`, `selection.json`, and `blueprint.json`) in a UI, letting users edit or confirm them, and resuming the run from that checkpoint. Allowing users to correct errors as they happen will directly increase success rate and reduce wasted reruns.
 
@@ -269,6 +263,13 @@ Another improvement is to adopt **progressive refinement** for routing. A fast i
 
 Finally, AutoGDS should add **automatic evaluation and benchmarking**. A standard prompt suite with pass/fail criteria (non-empty GDS, correct port counts, no crossings) would quantify progress over time. Coupled with regression tests, this would prevent improvements in one area from breaking others.
 
-Beyond these near-term improvements, for my undergraduate thesis, I wish to deliver a **full-process photonics design agent** that covers the full workflow of device simulation and layout. It can be realized by chaining simulation, optimization, and layout into a single goal-driven loop. The agent would interpret a natural-language spec, choose a parametric template, run fast surrogate simulations (or reduced-order models) to evaluate performance metrics, and iteratively update geometry with a constrained optimizer before emitting GDS. Integrating these stages allows the system to reason about **performance and manufacturability jointly**, reducing trial-and-error and enabling rapid exploration of design trade-offs. The benefit is a single, accountable pipeline that turns high-level intent into validated, fabrication-ready layouts, significantly lowering the expertise barrier for photonics design.
+Beyond these near-term improvements, I wish to deliver a **full-process photonics design agent** that covers the full workflow of device simulation and layout. It can be realized by chaining simulation, optimization, and layout into a single goal-driven loop. The agent would interpret a natural-language spec, choose a parametric template, run fast surrogate simulations (or reduced-order models) to evaluate performance metrics, and iteratively update geometry with a constrained optimizer before emitting GDS. Integrating these stages allows the system to reason about **performance and manufacturability jointly**, reducing trial-and-error and enabling rapid exploration of design trade-offs. The benefit is a single, accountable pipeline that turns high-level intent into validated, fabrication-ready layouts, significantly lowering the expertise barrier for photonics design.
 
-I would need funding source and a team to pursue this goal, and I'm leaving this to after the course deadline. Do something big!
+## Acknowledgements
+
+AutoGDS redistributes the KnowledgeBase PDK (e.g., `KnowledgeBase/DesignLibrary`) from the PhIDO project, which is licensed under the MIT License. All other components of AutoGDS are developed independently by the author of this repository.
+See `LICENSE` for details.
+
+## License
+
+AutoGDS is released under the MIT License. See `LICENSE`.
